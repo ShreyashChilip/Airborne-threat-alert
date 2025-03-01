@@ -21,9 +21,9 @@ app.add_middleware(
 model = YOLO("best.pt")
 
 # Define directories
-UPLOAD_DIR = "/workspaces/BichdeHueDost_AB2_01/uploads"
-OUTPUT_DIR = "/workspaces/BichdeHueDost_AB2_01/processed_videos"
-YOLO_OUTPUT_DIR = "/workspaces/BichdeHueDost_AB2_01/runs/detect"
+UPLOAD_DIR = "uploads"
+OUTPUT_DIR = "processed_videos"
+YOLO_OUTPUT_DIR = "runs/detect"
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)

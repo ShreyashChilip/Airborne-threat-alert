@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Processing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #log {
+            white-space: pre-wrap;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: none;
+        }
+        video {
+            max-width: 600px;
+            margin-top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Upload a Video for Processing</h2>
+    <input type="file" id="videoInput" accept="video/*">
+    <button onclick="uploadVideo()">Upload & Process</button>
+    <p id="status"></p>
+
+    <h3>Detection Log:</h3>
+    <div id="log"></div>
+
+    <h3>Processed Video:</h3>
+    <video id="processedVideo" controls></video>
+    <br>
+    <a id="downloadLink" style="display: none;" download>Download Processed Video</a>
+
+    <script>
+async function uploadVideo() {
+    let videoInput = document.getElementById("videoInput").files[0];
+    if (!videoInput) {
+        alert("Please select a video file!");
+        return;
+    }
+
+    let formData = new FormData();
+    formData.append("video", videoInput);
+
+    document.getElementById("status").innerText = "Processing in progress...";
+    document.getElementById("log").style.display = "none";
+    document.getElementById("processedVideo").style.display = "none";
+    document.getElementById("downloadLink").style.display = "none";
+
+    try {
+        console.log("Starting API call..."); // Debugging step
+        let response = await fetch("https://orange-fiesta-rvgxwgwr6pq2wxq9-8000.app.github.dev/process-video/", {
+            method: "POST",
+            body: formData
+        });
+
+        console.log("Response received:", response); // Debugging step
+
+        if (!response.ok) {
+            let errorText = await response.text();
+            throw new Error(`Processing failed! Status: ${response.status}, Response: ${errorText}`);
+        }
+
+        let result = await response.json();
+        console.log("API Result:", result); // Debugging step
+
+        document.getElementById("status").innerText = "Processing complete!";
+        document.getElementById("log").innerText = JSON.stringify(result.detection_log, null, 2);
+        document.getElementById("log").style.display = "block";
+
+        if (result.download_url) {
+            let processedVideo = document.getElementById("processedVideo");
+            processedVideo.src = result.download_url;
+            processedVideo.style.display = "block";
+
+            let downloadLink = document.getElementById("downloadLink");
+            downloadLink.href = result.download_url;
+            downloadLink.innerText = "Download Processed Video";
+            downloadLink.style.display = "block";
+        }
+
+    } catch (error) {
+        document.getElementById("status").innerText = "Error processing video!";
+        console.error("Fetch error:", error);
+    }
+}
+    </script>
+</body>
+</html>

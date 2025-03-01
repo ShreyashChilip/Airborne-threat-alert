@@ -5,9 +5,18 @@ import glob
 from fastapi import FastAPI, File, UploadFile, Request
 from fastapi.responses import JSONResponse, FileResponse
 from ultralytics import YOLO
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
+# Allow all origins (for development)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Change to your frontend origin in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Ensure YOLO model is loaded once
 model = YOLO("best.pt")
 
@@ -50,7 +59,7 @@ def process_video(video_path: str, output_dir: str):
     return detection_log, None
 
 @app.post("/process-video/")
-async def process_uploaded_video(video: UploadFile = File(...), request: Request):
+async def process_uploaded_video(request: Request, video: UploadFile = File(...)):
     """API endpoint to process uploaded video, return detection log, and processed video."""
     unique_filename = f"{uuid.uuid4()}_{video.filename}"
     input_video_path = os.path.join(UPLOAD_DIR, unique_filename)
@@ -64,7 +73,7 @@ async def process_uploaded_video(video: UploadFile = File(...), request: Request
     response_data = {"detection_log": detection_log}
 
     if processed_video_path:
-        full_download_url = str(request.base_url) + f"download/{os.path.basename(processed_video_path)}"
+        full_download_url = 'https://orange-fiesta-rvgxwgwr6pq2wxq9-8000.app.github.dev/' + f"download/{os.path.basename(processed_video_path)}"
         response_data["download_url"] = full_download_url  # Return full URL
 
     return response_data
@@ -76,3 +85,8 @@ def download_processed_video(file_name: str):
     if os.path.exists(file_path):
         return FileResponse(file_path, media_type="video/x-msvideo", filename=file_name)  # Correct media type for AVI
     return JSONResponse(status_code=404, content={"error": "File not found"})
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

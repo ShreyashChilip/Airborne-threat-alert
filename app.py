@@ -2,7 +2,7 @@ import os
 import shutil
 import uuid
 import glob
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, UploadFile, Request
 from fastapi.responses import JSONResponse, FileResponse
 from ultralytics import YOLO
 
@@ -11,7 +11,7 @@ app = FastAPI()
 # Ensure YOLO model is loaded once
 model = YOLO("best.pt")
 
-# Define a valid directory
+# Define directories
 UPLOAD_DIR = "/workspaces/BichdeHueDost_AB2_01/uploads"
 OUTPUT_DIR = "/workspaces/BichdeHueDost_AB2_01/processed_videos"
 YOLO_OUTPUT_DIR = "/workspaces/BichdeHueDost_AB2_01/runs/detect"
@@ -50,7 +50,7 @@ def process_video(video_path: str, output_dir: str):
     return detection_log, None
 
 @app.post("/process-video/")
-async def process_uploaded_video(video: UploadFile = File(...)):
+async def process_uploaded_video(video: UploadFile = File(...), request: Request):
     """API endpoint to process uploaded video, return detection log, and processed video."""
     unique_filename = f"{uuid.uuid4()}_{video.filename}"
     input_video_path = os.path.join(UPLOAD_DIR, unique_filename)
@@ -64,7 +64,8 @@ async def process_uploaded_video(video: UploadFile = File(...)):
     response_data = {"detection_log": detection_log}
 
     if processed_video_path:
-        response_data["download_url"] = f"/download/{os.path.basename(processed_video_path)}"
+        full_download_url = str(request.base_url) + f"download/{os.path.basename(processed_video_path)}"
+        response_data["download_url"] = full_download_url  # Return full URL
 
     return response_data
 

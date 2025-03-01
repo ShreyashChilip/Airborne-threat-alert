@@ -30,7 +30,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def process_video(video_path: str, output_dir: str):
     """Runs YOLO detection on the video, saves processed video, and returns detection log."""
-    results = model.predict(source=video_path, conf=0.4, save=True, show=False)
+    results = model.predict(source=video_path, conf=0.6, save=True, show=False)
 
     detection_log = []
     for result in results:

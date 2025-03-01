@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Processing</title>
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,7 +20,7 @@
             padding: 10px;
             display: none;
         }
-        video {
+        .video-js {
             max-width: 600px;
             margin-top: 10px;
             display: none;
@@ -36,10 +37,17 @@
     <div id="log"></div>
 
     <h3>Processed Video:</h3>
-    <video id="processedVideo" controls></video>
+    <video id="processedVideo" class="video-js vjs-default-skin" controls preload="auto" width="600" height="400">
+        <source id="processedVideoSource" src="" type="video/avi">
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
     <br>
     <a id="downloadLink" style="display: none;" download>Download Processed Video</a>
 
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
     <script>
 async function uploadVideo() {
     let videoInput = document.getElementById("videoInput").files[0];
@@ -57,41 +65,66 @@ async function uploadVideo() {
     document.getElementById("downloadLink").style.display = "none";
 
     try {
-        console.log("Starting API call..."); // Debugging step
+        console.log("Starting API call...");
         let response = await fetch("https://orange-fiesta-rvgxwgwr6pq2wxq9-8000.app.github.dev/process-video/", {
             method: "POST",
             body: formData
         });
 
-        console.log("Response received:", response); // Debugging step
-
         if (!response.ok) {
             let errorText = await response.text();
-            throw new Error(`Processing failed! Status: ${response.status}, Response: ${errorText}`);
+            throw new Error(`Upload failed! Status: ${response.status}, Response: ${errorText}`);
         }
 
         let result = await response.json();
-        console.log("API Result:", result); // Debugging step
+        console.log("Processing started:", result);
 
-        document.getElementById("status").innerText = "Processing complete!";
-        document.getElementById("log").innerText = JSON.stringify(result.detection_log, null, 2);
-        document.getElementById("log").style.display = "block";
-
-        if (result.download_url) {
-            let processedVideo = document.getElementById("processedVideo");
-            processedVideo.src = result.download_url;
-            processedVideo.style.display = "block";
-
-            let downloadLink = document.getElementById("downloadLink");
-            downloadLink.href = result.download_url;
-            downloadLink.innerText = "Download Processed Video";
-            downloadLink.style.display = "block";
-        }
+        // Start polling
+        await pollForCompletion(result.task_id);
 
     } catch (error) {
         document.getElementById("status").innerText = "Error processing video!";
-        console.error("Fetch error:", error);
+        console.error("Upload error:", error);
     }
+}
+
+async function pollForCompletion(task_id) {
+    let maxAttempts = 20; // Poll up to 20 times (adjust if needed)
+    let attempt = 0;
+
+    while (attempt < maxAttempts) {
+        await new Promise(resolve => setTimeout(resolve, 5000)); // Wait 5 sec
+        attempt++;
+
+        console.log(`Checking status (attempt ${attempt})...`);
+        let response = await fetch(`https://orange-fiesta-rvgxwgwr6pq2wxq9-8000.app.github.dev/check-status/${task_id}`);
+
+        if (response.ok) {
+            let result = await response.json();
+            console.log("Processing status:", result);
+
+            if (result.status === "complete") {
+                document.getElementById("status").innerText = "Processing complete!";
+                
+                let processedVideo = document.getElementById("processedVideo");
+                let processedVideoSource = document.getElementById("processedVideoSource");
+                
+                processedVideoSource.src = result.download_url;
+                processedVideo.style.display = "block";
+                processedVideo.load();  // Reload video
+
+                let downloadLink = document.getElementById("downloadLink");
+                downloadLink.href = result.download_url;
+                downloadLink.innerText = "Download Processed Video";
+                downloadLink.style.display = "block";
+
+                return;  // ✅ Stop polling
+            }
+        }
+    }
+
+    // If we reach here, processing took too long
+    document.getElementById("status").innerText = "Processing is taking longer than expected...";
 }
     </script>
 </body>

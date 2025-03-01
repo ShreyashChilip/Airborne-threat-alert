@@ -1,92 +1,77 @@
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
+import os
+import shutil
+import uuid
+import glob
+from fastapi import FastAPI, File, UploadFile
+from fastapi.responses import JSONResponse, FileResponse
 from ultralytics import YOLO
-from deep_sort_realtime.deepsort_tracker import DeepSort
-from filterpy.kalman import KalmanFilter
 
-# Load YOLOv8 model with specific class filtering
-model = YOLO("yolov8n.pt")  # Pretrained YOLOv8 model
+app = FastAPI()
 
-# Define allowed classes (missile, drone, bird) based on YOLO class IDs
-ALLOWED_CLASSES = {0: "missile", 1: "drone", 2: "bird"}  # Update with correct class IDs
-CONFIDENCE_THRESHOLD = 0.5  # Minimum confidence to accept a detection
+# Ensure YOLO model is loaded once
+model = YOLO("best.pt")
 
-# Initialize DeepSORT tracker
-tracker = DeepSort(max_age=30, n_init=3, nms_max_overlap=1.0)
+# Define a valid directory
+UPLOAD_DIR = "/workspaces/BichdeHueDost_AB2_01/uploads"
+OUTPUT_DIR = "/workspaces/BichdeHueDost_AB2_01/processed_videos"
+YOLO_OUTPUT_DIR = "/workspaces/BichdeHueDost_AB2_01/runs/detect"
 
-# Initialize Kalman Filter for trajectory prediction
-kf = KalmanFilter(dim_x=4, dim_z=2)
-kf.F = np.array([[1, 1, 0, 0], [0, 1, 0, 0], [0, 0, 1, 1], [0, 0, 0, 1]])
-kf.H = np.array([[1, 0, 0, 0], [0, 0, 1, 0]])
-kf.P *= 1000  # Initial uncertainty
-kf.R = np.array([[5, 0], [0, 5]])
-kf.Q = np.array([[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]])
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Video input and output
-cap = cv2.VideoCapture("sample.mp4")  # Change the filename
-frame_width = int(cap.get(3))
-frame_height = int(cap.get(4))
+def process_video(video_path: str, output_dir: str):
+    """Runs YOLO detection on the video, saves processed video, and returns detection log."""
+    results = model.predict(source=video_path, conf=0.4, save=True, show=False)
 
-# Define video writer to save output with trajectories
-out = cv2.VideoWriter("output_with_trajectory.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 30, (frame_width, frame_height))
+    detection_log = []
+    for result in results:
+        frame_data = {"detections": []}
+        if hasattr(result, "boxes"):
+            for box in result.boxes:
+                frame_data["detections"].append({
+                    "class": model.names[int(box.cls)],
+                    "confidence": float(box.conf),
+                    "bounding_box": box.xyxy.tolist()
+                })
+        detection_log.append(frame_data)
 
-trajectories = {}
+    # Find the latest predict folder
+    predict_dirs = sorted(glob.glob(os.path.join(YOLO_OUTPUT_DIR, "predict*")), key=os.path.getmtime, reverse=True)
+    latest_predict_dir = predict_dirs[0] if predict_dirs else None
 
-while cap.isOpened():
-    ret, frame = cap.read()
-    if not ret:
-        break
-    
-    # Object detection with YOLO
-    detections = model(frame)[0].boxes.data.cpu().numpy()
-    detection_list = []
-    
-    for d in detections:
-        class_id = int(d[5])
-        confidence = float(d[4])
-        if class_id in ALLOWED_CLASSES and confidence > CONFIDENCE_THRESHOLD:  # Filter only required classes
-            detection_list.append((d[:4], confidence, class_id))  # Format: (bbox, confidence, class_id)
-    
-    # Object tracking with DeepSORT
-    tracks = tracker.update_tracks(detection_list, frame=frame)
-    
-    for track in tracks:
-        if not track.is_confirmed():
-            continue
-        
-        track_id = track.track_id
-        bbox = track.to_tlbr()
-        x, y = int((bbox[0] + bbox[2]) / 2), int((bbox[1] + bbox[3]) / 2)
-        
-        # Kalman Filter Prediction
-        kf.predict()
-        kf.update(np.array([x, y]))
-        predicted_x, predicted_y = map(int, kf.x[:2])  # Ensure values are scalars
-        
-        # Store trajectory
-        if track_id not in trajectories:
-            trajectories[track_id] = []
-        trajectories[track_id].append((predicted_x, predicted_y))
-        
-        # Draw detection and prediction on frame
-        cv2.rectangle(frame, (int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])), (0, 255, 0), 2)
-        cv2.circle(frame, (predicted_x, predicted_y), 5, (0, 0, 255), -1)
-        cv2.putText(frame, f"ID {track_id} ({ALLOWED_CLASSES.get(class_id, 'Unknown')})", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
-        
-    # Draw trajectory lines
-    for track_id, trajectory in trajectories.items():
-        for i in range(1, len(trajectory)):
-            cv2.line(frame, trajectory[i-1], trajectory[i], (0, 255, 255), 2)
-    
-    # Save frame with trajectory to video
-    out.write(frame)
-    
-    # REMOVE DISPLAY (Fix for headless Windows environment)
-    # cv2.imshow("Tracking", frame)  # Removed
-    
+    if latest_predict_dir:
+        # Find the processed AVI file inside predict folder
+        avi_files = glob.glob(os.path.join(latest_predict_dir, "*.avi"))
+        if avi_files:
+            processed_video_path = os.path.join(output_dir, os.path.basename(video_path).replace(".mp4", ".avi"))
+            shutil.move(avi_files[0], processed_video_path)
+            return detection_log, processed_video_path
 
-cap.release()
-out.release()
+    return detection_log, None
 
-print("Processing complete. Output saved as output_with_trajectory.mp4")
+@app.post("/process-video/")
+async def process_uploaded_video(video: UploadFile = File(...)):
+    """API endpoint to process uploaded video, return detection log, and processed video."""
+    unique_filename = f"{uuid.uuid4()}_{video.filename}"
+    input_video_path = os.path.join(UPLOAD_DIR, unique_filename)
+
+    with open(input_video_path, "wb") as buffer:
+        shutil.copyfileobj(video.file, buffer)
+
+    # Run YOLO detection
+    detection_log, processed_video_path = process_video(input_video_path, OUTPUT_DIR)
+
+    response_data = {"detection_log": detection_log}
+
+    if processed_video_path:
+        response_data["download_url"] = f"/download/{os.path.basename(processed_video_path)}"
+
+    return response_data
+
+@app.get("/download/{file_name}")
+def download_processed_video(file_name: str):
+    """Endpoint to download the processed video."""
+    file_path = os.path.join(OUTPUT_DIR, file_name)
+    if os.path.exists(file_path):
+        return FileResponse(file_path, media_type="video/x-msvideo", filename=file_name)  # Correct media type for AVI
+    return JSONResponse(status_code=404, content={"error": "File not found"})

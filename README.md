@@ -157,7 +157,7 @@ Contributors:
 - **GitHub:** https://github.com/kiranthorat-200
 - **LinkedIn:** [Profile](https://www.linkedin.com/in/kiran-thorat-3a39aa32a/)
 
-**Ram Belitkar**
+**Ram Belitkar - MES Wadia College of Engineering**
 - **Email (Personal):** ram27belitkar@gmail.com
 - **GitHub:** https://github.com/Rambelitkar
 - **LinkedIn:** [Profile](https://www.linkedin.com/in/ram-belitkar-270b37264/)

@@ -96,34 +96,17 @@ Traditional surveillance methods for airborne threat detection rely heavily on m
 ## 📸 App Output Screenshots
 
 Below are some key outputs from the AeroSentinel app, demonstrating its functionality in real-world scenarios.
+## 📸 App Output Screenshots
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1 1 30%; margin: 5px;">
-    <img src="https://i.ibb.co/xKb6QJv4/Screenshot-2025-03-02-055456.png" alt="Initial App Screen" style="width:100%;">
-    <p style="text-align: center;">Initial App Screen</p>
-  </div>
-  <div style="flex: 1 1 30%; margin: 5px;">
-    <img src="https://i.ibb.co/XrbzQs0K/Screenshot-2025-03-02-055515.png" alt="Video Analysis Summary" style="width:100%;">
-    <p style="text-align: center;">Video Analysis Summary</p>
-  </div>
-  <div style="flex: 1 1 30%; margin: 5px;">
-    <img src="https://i.ibb.co/1Y5tL7V0/Screenshot-2025-03-02-055532.png" alt="Threat Analysis Report - Low Threat" style="width:100%;">
-    <p style="text-align: center;">Threat Analysis Report - Low Threat</p>
-  </div>
-  <div style="flex: 1 1 30%; margin: 5px;">
-    <img src="https://i.ibb.co/Dfxb6K5W/Screenshot-2025-03-02-055600.png" alt="Threat Analysis Report - Critical Threat" style="width:100%;">
-    <p style="text-align: center;">Threat Analysis Report - Critical Threat</p>
-  </div>
-  <div style="flex: 1 1 30%; margin: 5px;">
-    <img src="https://i.ibb.co/9ksNyb32/Screenshot-2025-03-02-055747.png" alt="Detection Frame - Missile" style="width:100%;">
-    <p style="text-align: center;">Detection Frame - Missile</p>
-  </div>
-  <div style="flex: 1 1 30%; margin: 5px;">
-    <img src="https://i.ibb.co/35Ywc5JZ/Screenshot-2025-03-02-055704.png" alt="Detection Frame - Birds" style="width:100%;">
-    <p style="text-align: center;">Detection Frame - Birds</p>
-  </div>
-</div>
+Below are some key outputs from the AeroSentinel app, demonstrating its functionality in real-world scenarios.
 
+| **Initial App Screen** | **Video Analysis Summary** | **Threat Analysis Report (Low Threat)** |
+|------------------------|----------------------------|-----------------------------------------|
+| ![Initial App Screen](https://i.ibb.co/xKb6QJv4/Screenshot-2025-03-02-055456.png) <br> *The app prompts users to upload surveillance footage to begin analysis.* | ![Video Analysis Summary](https://i.ibb.co/XrbzQs0K/Screenshot-2025-03-02-055515.png) <br> *After uploading a video, the app displays a summary of detected objects: 3008 birds, 0 drones, and 0 missiles.* | ![Threat Analysis Report - Low Threat](https://i.ibb.co/1Y5tL7V0/Screenshot-2025-03-02-055532.png) <br> *For a video with only birds (3008 detected), the threat level is Low. The app recommends logging for wildlife monitoring.* |
+
+| **Threat Analysis Report (Critical Threat)** | **Detection Frame (Missile Launch)** | **Detection Frame (Birds Only)** |
+|----------------------------------------------|--------------------------------------|----------------------------------|
+| ![Threat Analysis Report - Critical Threat](https://i.ibb.co/Dfxb6K5W/Screenshot-2025-03-02-055600.png) <br> *For a video with 104 missiles detected, the threat level is Critical. The app recommends immediate actions like activating emergency protocols and notifying the security command center.* | ![Detection Frame - Missile](https://i.ibb.co/9ksNyb32/Screenshot-2025-03-02-055747.png) <br> *A frame from a surveillance video sourced from the Russian Defense Ministry, showing a missile launch detected with 62% confidence.* | ![Detection Frame - Birds](https://i.ibb.co/35Ywc5JZ/Screenshot-2025-03-02-055704.png) <br> *A frame showing multiple birds detected with high confidence, indicating no immediate threat.* |
 ---
 
 ## 🔥 Future Enhancements

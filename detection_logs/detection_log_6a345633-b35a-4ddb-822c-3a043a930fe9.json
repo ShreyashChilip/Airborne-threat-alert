@@ -1,0 +1,6556 @@
+{
+  "metadata": {
+    "processing_time_seconds": 38.19816541671753,
+    "processed_fps": 14.9745411529545,
+    "video_length_seconds": 19.066666666666666,
+    "threat_summary": {
+      "birds": 64,
+      "drones": 166,
+      "missiles": 0,
+      "highest_threat_level": "High"
+    },
+    "analysis_timestamp": "2025-03-02T00:17:10.990371"
+  },
+  "frames": [
+    {
+      "frame_id": 0,
+      "timestamp": 0.0,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7650450468063354,
+          "bounding_box": [
+            295.6028137207031,
+            212.5885467529297,
+            408.0491638183594,
+            292.7549133300781
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 1,
+      "timestamp": 0.03333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7469373345375061,
+          "bounding_box": [
+            294.42669677734375,
+            216.66371154785156,
+            406.9233703613281,
+            297.3932189941406
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 2,
+      "timestamp": 0.06666666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7102163434028625,
+          "bounding_box": [
+            292.096435546875,
+            216.21385192871094,
+            406.82080078125,
+            303.35211181640625
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 3,
+      "timestamp": 0.1,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7199336290359497,
+          "bounding_box": [
+            290.718017578125,
+            220.00904846191406,
+            406.8099060058594,
+            306.72857666015625
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 4,
+      "timestamp": 0.13333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7291193008422852,
+          "bounding_box": [
+            288.8878479003906,
+            225.12945556640625,
+            406.18133544921875,
+            308.056640625
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 5,
+      "timestamp": 0.16666666666666666,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.8094307780265808,
+          "bounding_box": [
+            284.679931640625,
+            221.60076904296875,
+            405.044677734375,
+            308.58087158203125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 6,
+      "timestamp": 0.2,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7657759189605713,
+          "bounding_box": [
+            285.9439697265625,
+            219.47792053222656,
+            402.10247802734375,
+            308.29669189453125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 7,
+      "timestamp": 0.23333333333333334,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7310900688171387,
+          "bounding_box": [
+            286.7255859375,
+            219.1186981201172,
+            402.31829833984375,
+            307.54296875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 8,
+      "timestamp": 0.26666666666666666,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7592297196388245,
+          "bounding_box": [
+            286.48309326171875,
+            220.13929748535156,
+            401.45416259765625,
+            304.7015686035156
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 9,
+      "timestamp": 0.3,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7959396839141846,
+          "bounding_box": [
+            282.7943420410156,
+            216.95704650878906,
+            399.7033996582031,
+            302.0217590332031
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 10,
+      "timestamp": 0.3333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7958450317382812,
+          "bounding_box": [
+            282.16082763671875,
+            215.22930908203125,
+            397.972412109375,
+            301.5498352050781
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 11,
+      "timestamp": 0.36666666666666664,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7365747094154358,
+          "bounding_box": [
+            280.60247802734375,
+            214.95108032226562,
+            412.1318054199219,
+            302.7412414550781
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 12,
+      "timestamp": 0.4,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.692899227142334,
+          "bounding_box": [
+            277.1463928222656,
+            216.70603942871094,
+            417.9382019042969,
+            304.13433837890625
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 13,
+      "timestamp": 0.43333333333333335,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7606683969497681,
+          "bounding_box": [
+            276.7501525878906,
+            219.02247619628906,
+            386.15228271484375,
+            301.49609375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 14,
+      "timestamp": 0.4666666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7003151774406433,
+          "bounding_box": [
+            273.3782653808594,
+            216.05474853515625,
+            384.5067138671875,
+            300.3904113769531
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 15,
+      "timestamp": 0.5,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7064353227615356,
+          "bounding_box": [
+            270.9951171875,
+            212.7939910888672,
+            382.5970458984375,
+            300.5192565917969
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 16,
+      "timestamp": 0.5333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7565568089485168,
+          "bounding_box": [
+            270.5132751464844,
+            214.30348205566406,
+            378.9765625,
+            301.2154235839844
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 17,
+      "timestamp": 0.5666666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7331936359405518,
+          "bounding_box": [
+            267.5844421386719,
+            216.05841064453125,
+            376.03521728515625,
+            301.987060546875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 18,
+      "timestamp": 0.6,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7128869891166687,
+          "bounding_box": [
+            263.1844787597656,
+            215.7927703857422,
+            371.8418273925781,
+            303.5609130859375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 19,
+      "timestamp": 0.6333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7682225704193115,
+          "bounding_box": [
+            259.10284423828125,
+            219.1056365966797,
+            365.4692077636719,
+            306.3334655761719
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 20,
+      "timestamp": 0.6666666666666666,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7721610069274902,
+          "bounding_box": [
+            252.6383819580078,
+            220.24696350097656,
+            355.9766845703125,
+            308.2845153808594
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 21,
+      "timestamp": 0.7,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6627245545387268,
+          "bounding_box": [
+            249.0093994140625,
+            223.7578582763672,
+            355.3670654296875,
+            310.19134521484375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 22,
+      "timestamp": 0.7333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7103186249732971,
+          "bounding_box": [
+            245.28086853027344,
+            228.03915405273438,
+            351.8386535644531,
+            314.5088806152344
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 23,
+      "timestamp": 0.7666666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7663441896438599,
+          "bounding_box": [
+            243.13104248046875,
+            231.75250244140625,
+            346.75103759765625,
+            318.89971923828125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 24,
+      "timestamp": 0.8,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.8400688767433167,
+          "bounding_box": [
+            240.65985107421875,
+            237.48497009277344,
+            342.5957336425781,
+            321.5391540527344
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 25,
+      "timestamp": 0.8333333333333334,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.844510555267334,
+          "bounding_box": [
+            237.8856658935547,
+            240.12416076660156,
+            340.9810791015625,
+            325.4255065917969
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 26,
+      "timestamp": 0.8666666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.8355204463005066,
+          "bounding_box": [
+            233.04747009277344,
+            241.59902954101562,
+            340.40472412109375,
+            329.0245056152344
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 27,
+      "timestamp": 0.9,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.8211278915405273,
+          "bounding_box": [
+            229.51571655273438,
+            242.38780212402344,
+            338.4104919433594,
+            329.9664001464844
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 28,
+      "timestamp": 0.9333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.798080325126648,
+          "bounding_box": [
+            226.18768310546875,
+            242.81390380859375,
+            337.1446533203125,
+            329.25341796875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 29,
+      "timestamp": 0.9666666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7571808695793152,
+          "bounding_box": [
+            225.11427307128906,
+            240.38839721679688,
+            338.8217468261719,
+            326.9312438964844
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 30,
+      "timestamp": 1.0,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7163377404212952,
+          "bounding_box": [
+            225.39805603027344,
+            237.73049926757812,
+            340.9463806152344,
+            322.1912536621094
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 31,
+      "timestamp": 1.0333333333333334,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7389131784439087,
+          "bounding_box": [
+            224.65687561035156,
+            230.25399780273438,
+            341.0147705078125,
+            317.4879150390625
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 32,
+      "timestamp": 1.0666666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7119757533073425,
+          "bounding_box": [
+            225.21914672851562,
+            220.38941955566406,
+            343.3799743652344,
+            310.44677734375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 33,
+      "timestamp": 1.1,
+      "detections": []
+    },
+    {
+      "frame_id": 34,
+      "timestamp": 1.1333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 35,
+      "timestamp": 1.1666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 36,
+      "timestamp": 1.2,
+      "detections": []
+    },
+    {
+      "frame_id": 37,
+      "timestamp": 1.2333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 38,
+      "timestamp": 1.2666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 39,
+      "timestamp": 1.3,
+      "detections": []
+    },
+    {
+      "frame_id": 40,
+      "timestamp": 1.3333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 41,
+      "timestamp": 1.3666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 42,
+      "timestamp": 1.4,
+      "detections": []
+    },
+    {
+      "frame_id": 43,
+      "timestamp": 1.4333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 44,
+      "timestamp": 1.4666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 45,
+      "timestamp": 1.5,
+      "detections": []
+    },
+    {
+      "frame_id": 46,
+      "timestamp": 1.5333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 47,
+      "timestamp": 1.5666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 48,
+      "timestamp": 1.6,
+      "detections": []
+    },
+    {
+      "frame_id": 49,
+      "timestamp": 1.6333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6655488610267639,
+          "bounding_box": [
+            228.55068969726562,
+            158.2930145263672,
+            401.4825439453125,
+            251.650146484375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 50,
+      "timestamp": 1.6666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 51,
+      "timestamp": 1.7,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7695192098617554,
+          "bounding_box": [
+            242.44650268554688,
+            164.42758178710938,
+            413.6705017089844,
+            262.1612243652344
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 52,
+      "timestamp": 1.7333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 53,
+      "timestamp": 1.7666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 54,
+      "timestamp": 1.8,
+      "detections": []
+    },
+    {
+      "frame_id": 55,
+      "timestamp": 1.8333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 56,
+      "timestamp": 1.8666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 57,
+      "timestamp": 1.9,
+      "detections": []
+    },
+    {
+      "frame_id": 58,
+      "timestamp": 1.9333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 59,
+      "timestamp": 1.9666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 60,
+      "timestamp": 2.0,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6326865553855896,
+          "bounding_box": [
+            237.52249145507812,
+            192.31082153320312,
+            440.3422546386719,
+            286.9810791015625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 61,
+      "timestamp": 2.033333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6989573836326599,
+          "bounding_box": [
+            227.79881286621094,
+            192.16799926757812,
+            438.3868713378906,
+            276.82659912109375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 62,
+      "timestamp": 2.066666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 63,
+      "timestamp": 2.1,
+      "detections": []
+    },
+    {
+      "frame_id": 64,
+      "timestamp": 2.1333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 65,
+      "timestamp": 2.1666666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 66,
+      "timestamp": 2.2,
+      "detections": []
+    },
+    {
+      "frame_id": 67,
+      "timestamp": 2.2333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 68,
+      "timestamp": 2.2666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 69,
+      "timestamp": 2.3,
+      "detections": []
+    },
+    {
+      "frame_id": 70,
+      "timestamp": 2.3333333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 71,
+      "timestamp": 2.3666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 72,
+      "timestamp": 2.4,
+      "detections": []
+    },
+    {
+      "frame_id": 73,
+      "timestamp": 2.433333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 74,
+      "timestamp": 2.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 75,
+      "timestamp": 2.5,
+      "detections": []
+    },
+    {
+      "frame_id": 76,
+      "timestamp": 2.533333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7174832820892334,
+          "bounding_box": [
+            187.97311401367188,
+            151.41131591796875,
+            325.806396484375,
+            241.02735900878906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 77,
+      "timestamp": 2.566666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6754222512245178,
+          "bounding_box": [
+            172.30413818359375,
+            144.7830352783203,
+            319.5980224609375,
+            231.2574920654297
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 78,
+      "timestamp": 2.6,
+      "detections": []
+    },
+    {
+      "frame_id": 79,
+      "timestamp": 2.6333333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6316665410995483,
+          "bounding_box": [
+            95.8994369506836,
+            103.47013854980469,
+            310.19720458984375,
+            210.4149627685547
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 80,
+      "timestamp": 2.6666666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 81,
+      "timestamp": 2.7,
+      "detections": []
+    },
+    {
+      "frame_id": 82,
+      "timestamp": 2.7333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 83,
+      "timestamp": 2.7666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 84,
+      "timestamp": 2.8,
+      "detections": []
+    },
+    {
+      "frame_id": 85,
+      "timestamp": 2.8333333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 86,
+      "timestamp": 2.8666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 87,
+      "timestamp": 2.9,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6593335270881653,
+          "bounding_box": [
+            143.99864196777344,
+            66.13795471191406,
+            344.9555358886719,
+            171.2923126220703
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 88,
+      "timestamp": 2.933333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 89,
+      "timestamp": 2.966666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6841284036636353,
+          "bounding_box": [
+            165.90061950683594,
+            67.1395263671875,
+            369.83209228515625,
+            167.71080017089844
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 90,
+      "timestamp": 3.0,
+      "detections": []
+    },
+    {
+      "frame_id": 91,
+      "timestamp": 3.033333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6531651616096497,
+          "bounding_box": [
+            179.4635772705078,
+            66.17002868652344,
+            396.26629638671875,
+            168.80503845214844
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 92,
+      "timestamp": 3.066666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 93,
+      "timestamp": 3.1,
+      "detections": []
+    },
+    {
+      "frame_id": 94,
+      "timestamp": 3.1333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 95,
+      "timestamp": 3.1666666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 96,
+      "timestamp": 3.2,
+      "detections": []
+    },
+    {
+      "frame_id": 97,
+      "timestamp": 3.2333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 98,
+      "timestamp": 3.2666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 99,
+      "timestamp": 3.3,
+      "detections": []
+    },
+    {
+      "frame_id": 100,
+      "timestamp": 3.3333333333333335,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6582590937614441,
+          "bounding_box": [
+            220.68399047851562,
+            60.06205749511719,
+            483.001220703125,
+            166.8203125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 101,
+      "timestamp": 3.3666666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7664121389389038,
+          "bounding_box": [
+            219.35397338867188,
+            60.62942123413086,
+            487.68505859375,
+            167.0220947265625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 102,
+      "timestamp": 3.4,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7838824987411499,
+          "bounding_box": [
+            218.82037353515625,
+            62.38526153564453,
+            489.59088134765625,
+            168.6014862060547
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 103,
+      "timestamp": 3.433333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7819175720214844,
+          "bounding_box": [
+            216.13031005859375,
+            63.45817565917969,
+            490.3887023925781,
+            172.4205780029297
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 104,
+      "timestamp": 3.466666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8111262917518616,
+          "bounding_box": [
+            213.72824096679688,
+            64.31474304199219,
+            492.2967834472656,
+            178.10989379882812
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 105,
+      "timestamp": 3.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8143429160118103,
+          "bounding_box": [
+            206.07110595703125,
+            65.7068862915039,
+            490.7545166015625,
+            182.69012451171875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 106,
+      "timestamp": 3.533333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7585347294807434,
+          "bounding_box": [
+            200.45761108398438,
+            66.98127746582031,
+            486.02105712890625,
+            188.96481323242188
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 107,
+      "timestamp": 3.566666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8100267052650452,
+          "bounding_box": [
+            183.90736389160156,
+            69.00566101074219,
+            482.8585205078125,
+            185.80831909179688
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 108,
+      "timestamp": 3.6,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8778867125511169,
+          "bounding_box": [
+            188.57846069335938,
+            74.08915710449219,
+            477.5059814453125,
+            194.82720947265625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 109,
+      "timestamp": 3.6333333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8960365056991577,
+          "bounding_box": [
+            179.40235900878906,
+            78.3890151977539,
+            471.09466552734375,
+            201.1806182861328
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 110,
+      "timestamp": 3.6666666666666665,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8988084197044373,
+          "bounding_box": [
+            163.12510681152344,
+            79.12157440185547,
+            461.7341613769531,
+            199.3636016845703
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 111,
+      "timestamp": 3.7,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8759412169456482,
+          "bounding_box": [
+            165.1414031982422,
+            83.82764434814453,
+            459.36029052734375,
+            199.91455078125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 112,
+      "timestamp": 3.7333333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8965165019035339,
+          "bounding_box": [
+            159.35775756835938,
+            84.72382354736328,
+            451.1575012207031,
+            206.24917602539062
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 113,
+      "timestamp": 3.7666666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8791903853416443,
+          "bounding_box": [
+            149.8482208251953,
+            88.28272247314453,
+            453.4973449707031,
+            212.35926818847656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 114,
+      "timestamp": 3.8,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8714620471000671,
+          "bounding_box": [
+            138.3112335205078,
+            90.39637756347656,
+            440.3465576171875,
+            221.56491088867188
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 115,
+      "timestamp": 3.8333333333333335,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8862187266349792,
+          "bounding_box": [
+            134.90188598632812,
+            89.38701629638672,
+            446.6837158203125,
+            221.7176971435547
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 116,
+      "timestamp": 3.8666666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.852064847946167,
+          "bounding_box": [
+            123.1268310546875,
+            91.10674285888672,
+            431.23291015625,
+            219.96377563476562
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 117,
+      "timestamp": 3.9,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9021325707435608,
+          "bounding_box": [
+            119.37287139892578,
+            87.89006042480469,
+            419.5150146484375,
+            218.59414672851562
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 118,
+      "timestamp": 3.933333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9030627608299255,
+          "bounding_box": [
+            116.7306900024414,
+            74.63806915283203,
+            415.6189880371094,
+            218.6203155517578
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 119,
+      "timestamp": 3.966666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8928154110908508,
+          "bounding_box": [
+            106.94347381591797,
+            87.27003479003906,
+            408.8661193847656,
+            216.70497131347656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 120,
+      "timestamp": 4.0,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9264640808105469,
+          "bounding_box": [
+            113.72187042236328,
+            87.98479461669922,
+            404.79962158203125,
+            222.81883239746094
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 121,
+      "timestamp": 4.033333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9142642021179199,
+          "bounding_box": [
+            113.74453735351562,
+            93.67132568359375,
+            407.9004821777344,
+            219.6846160888672
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 122,
+      "timestamp": 4.066666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9309985637664795,
+          "bounding_box": [
+            122.79925537109375,
+            97.29401397705078,
+            410.13037109375,
+            229.302490234375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 123,
+      "timestamp": 4.1,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9360476136207581,
+          "bounding_box": [
+            128.80311584472656,
+            103.06702423095703,
+            413.66387939453125,
+            232.8338623046875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 124,
+      "timestamp": 4.133333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9273046851158142,
+          "bounding_box": [
+            139.44688415527344,
+            109.10161590576172,
+            420.85009765625,
+            241.6813507080078
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 125,
+      "timestamp": 4.166666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8958042860031128,
+          "bounding_box": [
+            152.4664306640625,
+            116.03939819335938,
+            428.782470703125,
+            243.47933959960938
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 126,
+      "timestamp": 4.2,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9141038060188293,
+          "bounding_box": [
+            162.2269287109375,
+            118.7728500366211,
+            441.1560974121094,
+            249.32208251953125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 127,
+      "timestamp": 4.233333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8933853507041931,
+          "bounding_box": [
+            176.74342346191406,
+            121.79076385498047,
+            457.0830078125,
+            246.21414184570312
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 128,
+      "timestamp": 4.266666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9331450462341309,
+          "bounding_box": [
+            193.00592041015625,
+            123.97327423095703,
+            470.219970703125,
+            250.9977569580078
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 129,
+      "timestamp": 4.3,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9087721109390259,
+          "bounding_box": [
+            208.2315216064453,
+            125.52073669433594,
+            486.4471435546875,
+            256.3445129394531
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 130,
+      "timestamp": 4.333333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9316452145576477,
+          "bounding_box": [
+            223.0287628173828,
+            125.86393737792969,
+            503.05047607421875,
+            256.86761474609375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 131,
+      "timestamp": 4.366666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9180471301078796,
+          "bounding_box": [
+            241.2576141357422,
+            129.9087677001953,
+            522.3207397460938,
+            269.44097900390625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 132,
+      "timestamp": 4.4,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.906393826007843,
+          "bounding_box": [
+            264.3912048339844,
+            133.96173095703125,
+            544.1024169921875,
+            266.4073791503906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 133,
+      "timestamp": 4.433333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7692873477935791,
+          "bounding_box": [
+            288.5716247558594,
+            139.5100860595703,
+            566.08203125,
+            274.82989501953125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 134,
+      "timestamp": 4.466666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9131115674972534,
+          "bounding_box": [
+            308.5558166503906,
+            139.7232208251953,
+            604.0986328125,
+            276.80023193359375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 135,
+      "timestamp": 4.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8427786231040955,
+          "bounding_box": [
+            327.72991943359375,
+            138.3136749267578,
+            613.0232543945312,
+            276.3153991699219
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 136,
+      "timestamp": 4.533333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9017399549484253,
+          "bounding_box": [
+            350.7498474121094,
+            141.1631622314453,
+            637.0817260742188,
+            275.97637939453125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 137,
+      "timestamp": 4.566666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9049587845802307,
+          "bounding_box": [
+            363.9747009277344,
+            143.04074096679688,
+            664.1076049804688,
+            286.8102111816406
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 138,
+      "timestamp": 4.6,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.912789523601532,
+          "bounding_box": [
+            382.5198974609375,
+            153.2011260986328,
+            681.0253295898438,
+            280.5008239746094
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 139,
+      "timestamp": 4.633333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9052574634552002,
+          "bounding_box": [
+            388.03570556640625,
+            152.82740783691406,
+            699.17822265625,
+            294.2177429199219
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 140,
+      "timestamp": 4.666666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.898307740688324,
+          "bounding_box": [
+            400.7241516113281,
+            153.8363800048828,
+            712.814208984375,
+            291.32421875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 141,
+      "timestamp": 4.7,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8235121965408325,
+          "bounding_box": [
+            412.57659912109375,
+            149.8621368408203,
+            733.4921875,
+            296.10107421875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 142,
+      "timestamp": 4.733333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8735301494598389,
+          "bounding_box": [
+            418.5733337402344,
+            153.06930541992188,
+            744.504638671875,
+            300.7952880859375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 143,
+      "timestamp": 4.766666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8373484015464783,
+          "bounding_box": [
+            420.8667907714844,
+            157.79318237304688,
+            746.918701171875,
+            304.4965515136719
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 144,
+      "timestamp": 4.8,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8211053609848022,
+          "bounding_box": [
+            427.25885009765625,
+            160.66090393066406,
+            753.679443359375,
+            300.4825439453125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 145,
+      "timestamp": 4.833333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8379892110824585,
+          "bounding_box": [
+            433.1465148925781,
+            161.8822479248047,
+            760.64892578125,
+            298.593505859375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 146,
+      "timestamp": 4.866666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8509927988052368,
+          "bounding_box": [
+            443.0284118652344,
+            162.08010864257812,
+            765.02685546875,
+            296.9281005859375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 147,
+      "timestamp": 4.9,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8548062443733215,
+          "bounding_box": [
+            443.2040100097656,
+            164.221435546875,
+            765.0364990234375,
+            302.5365295410156
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 148,
+      "timestamp": 4.933333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8006502389907837,
+          "bounding_box": [
+            439.3304748535156,
+            164.64999389648438,
+            762.3848876953125,
+            300.6707763671875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 149,
+      "timestamp": 4.966666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8073129653930664,
+          "bounding_box": [
+            448.3390808105469,
+            160.15943908691406,
+            764.4381713867188,
+            303.9993896484375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 150,
+      "timestamp": 5.0,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8274105191230774,
+          "bounding_box": [
+            443.239990234375,
+            160.70704650878906,
+            764.0420532226562,
+            290.1372375488281
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 151,
+      "timestamp": 5.033333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.835667073726654,
+          "bounding_box": [
+            441.1277770996094,
+            158.210693359375,
+            760.9160766601562,
+            294.51513671875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 152,
+      "timestamp": 5.066666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7934074401855469,
+          "bounding_box": [
+            437.8945007324219,
+            156.7047119140625,
+            757.0729370117188,
+            288.39471435546875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 153,
+      "timestamp": 5.1,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8347989916801453,
+          "bounding_box": [
+            439.69378662109375,
+            153.2943115234375,
+            750.0693969726562,
+            281.710693359375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 154,
+      "timestamp": 5.133333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7697230577468872,
+          "bounding_box": [
+            430.0918884277344,
+            149.8558807373047,
+            744.5609130859375,
+            284.4747314453125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 155,
+      "timestamp": 5.166666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8521301746368408,
+          "bounding_box": [
+            419.77069091796875,
+            143.74642944335938,
+            742.6983032226562,
+            276.22491455078125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 156,
+      "timestamp": 5.2,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8823019862174988,
+          "bounding_box": [
+            419.6676940917969,
+            137.84886169433594,
+            741.4072875976562,
+            275.9454345703125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 157,
+      "timestamp": 5.233333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.812373697757721,
+          "bounding_box": [
+            409.3370361328125,
+            132.33181762695312,
+            722.3876953125,
+            277.3289794921875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 158,
+      "timestamp": 5.266666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8420774340629578,
+          "bounding_box": [
+            396.2321472167969,
+            127.94731140136719,
+            717.4209594726562,
+            268.04107666015625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 159,
+      "timestamp": 5.3,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8227096796035767,
+          "bounding_box": [
+            391.22454833984375,
+            122.91815948486328,
+            713.3036499023438,
+            261.8952331542969
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 160,
+      "timestamp": 5.333333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8716343641281128,
+          "bounding_box": [
+            381.841064453125,
+            120.69520568847656,
+            689.5828247070312,
+            256.8485107421875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 161,
+      "timestamp": 5.366666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8428545594215393,
+          "bounding_box": [
+            379.4580383300781,
+            118.67825317382812,
+            684.7051391601562,
+            253.7597198486328
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 162,
+      "timestamp": 5.4,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8566650152206421,
+          "bounding_box": [
+            370.5098571777344,
+            118.54512786865234,
+            676.9275512695312,
+            252.12635803222656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 163,
+      "timestamp": 5.433333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8324676156044006,
+          "bounding_box": [
+            359.7992248535156,
+            116.2232894897461,
+            660.7474975585938,
+            253.44212341308594
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 164,
+      "timestamp": 5.466666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8914188742637634,
+          "bounding_box": [
+            351.5648498535156,
+            116.6854476928711,
+            653.505859375,
+            252.74554443359375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 165,
+      "timestamp": 5.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.870323896408081,
+          "bounding_box": [
+            345.60498046875,
+            119.49034118652344,
+            645.2525024414062,
+            252.390625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 166,
+      "timestamp": 5.533333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7259846925735474,
+          "bounding_box": [
+            334.377685546875,
+            122.82390594482422,
+            633.8302612304688,
+            253.53126525878906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 167,
+      "timestamp": 5.566666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6176219582557678,
+          "bounding_box": [
+            326.25567626953125,
+            125.50104522705078,
+            626.2568969726562,
+            253.54139709472656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 168,
+      "timestamp": 5.6,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.614883542060852,
+          "bounding_box": [
+            331.5023498535156,
+            129.16693115234375,
+            618.7533569335938,
+            261.2991027832031
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 169,
+      "timestamp": 5.633333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7482364773750305,
+          "bounding_box": [
+            332.91119384765625,
+            138.70590209960938,
+            612.5341796875,
+            261.58929443359375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 170,
+      "timestamp": 5.666666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7181240916252136,
+          "bounding_box": [
+            337.28265380859375,
+            147.27459716796875,
+            609.2407836914062,
+            266.9979553222656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 171,
+      "timestamp": 5.7,
+      "detections": []
+    },
+    {
+      "frame_id": 172,
+      "timestamp": 5.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 173,
+      "timestamp": 5.766666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6559492349624634,
+          "bounding_box": [
+            345.7177734375,
+            172.03187561035156,
+            596.0677490234375,
+            279.9893798828125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 174,
+      "timestamp": 5.8,
+      "detections": []
+    },
+    {
+      "frame_id": 175,
+      "timestamp": 5.833333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 176,
+      "timestamp": 5.866666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 177,
+      "timestamp": 5.9,
+      "detections": []
+    },
+    {
+      "frame_id": 178,
+      "timestamp": 5.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 179,
+      "timestamp": 5.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 180,
+      "timestamp": 6.0,
+      "detections": []
+    },
+    {
+      "frame_id": 181,
+      "timestamp": 6.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 182,
+      "timestamp": 6.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 183,
+      "timestamp": 6.1,
+      "detections": []
+    },
+    {
+      "frame_id": 184,
+      "timestamp": 6.133333333333334,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6112504005432129,
+          "bounding_box": [
+            366.4550476074219,
+            193.16510009765625,
+            583.197021484375,
+            303.80169677734375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 185,
+      "timestamp": 6.166666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 186,
+      "timestamp": 6.2,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6627302765846252,
+          "bounding_box": [
+            366.3389892578125,
+            195.2692413330078,
+            576.5289916992188,
+            306.36822509765625
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 187,
+      "timestamp": 6.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 188,
+      "timestamp": 6.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 189,
+      "timestamp": 6.3,
+      "detections": []
+    },
+    {
+      "frame_id": 190,
+      "timestamp": 6.333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 191,
+      "timestamp": 6.366666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 192,
+      "timestamp": 6.4,
+      "detections": []
+    },
+    {
+      "frame_id": 193,
+      "timestamp": 6.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 194,
+      "timestamp": 6.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 195,
+      "timestamp": 6.5,
+      "detections": []
+    },
+    {
+      "frame_id": 196,
+      "timestamp": 6.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 197,
+      "timestamp": 6.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 198,
+      "timestamp": 6.6,
+      "detections": []
+    },
+    {
+      "frame_id": 199,
+      "timestamp": 6.633333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 200,
+      "timestamp": 6.666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 201,
+      "timestamp": 6.7,
+      "detections": []
+    },
+    {
+      "frame_id": 202,
+      "timestamp": 6.733333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6945502161979675,
+          "bounding_box": [
+            330.4205627441406,
+            222.24090576171875,
+            558.2952880859375,
+            297.20281982421875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 203,
+      "timestamp": 6.766666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6286523938179016,
+          "bounding_box": [
+            329.61529541015625,
+            219.1125030517578,
+            560.29345703125,
+            294.4521179199219
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 204,
+      "timestamp": 6.8,
+      "detections": []
+    },
+    {
+      "frame_id": 205,
+      "timestamp": 6.833333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7441681623458862,
+          "bounding_box": [
+            326.26080322265625,
+            213.51419067382812,
+            554.2844848632812,
+            293.83203125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 206,
+      "timestamp": 6.866666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 207,
+      "timestamp": 6.9,
+      "detections": []
+    },
+    {
+      "frame_id": 208,
+      "timestamp": 6.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 209,
+      "timestamp": 6.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 210,
+      "timestamp": 7.0,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6760377883911133,
+          "bounding_box": [
+            306.9462890625,
+            209.62684631347656,
+            558.6388549804688,
+            322.760498046875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 211,
+      "timestamp": 7.033333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6448758840560913,
+          "bounding_box": [
+            297.7663879394531,
+            196.8037872314453,
+            534.4926147460938,
+            309.5788269042969
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 212,
+      "timestamp": 7.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 213,
+      "timestamp": 7.1,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6221266984939575,
+          "bounding_box": [
+            262.9222106933594,
+            186.63409423828125,
+            511.61907958984375,
+            332.427734375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 214,
+      "timestamp": 7.133333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 215,
+      "timestamp": 7.166666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 216,
+      "timestamp": 7.2,
+      "detections": []
+    },
+    {
+      "frame_id": 217,
+      "timestamp": 7.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 218,
+      "timestamp": 7.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 219,
+      "timestamp": 7.3,
+      "detections": []
+    },
+    {
+      "frame_id": 220,
+      "timestamp": 7.333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 221,
+      "timestamp": 7.366666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 222,
+      "timestamp": 7.4,
+      "detections": []
+    },
+    {
+      "frame_id": 223,
+      "timestamp": 7.433333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6423084735870361,
+          "bounding_box": [
+            316.7764587402344,
+            190.2757110595703,
+            505.3775634765625,
+            260.5951843261719
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 224,
+      "timestamp": 7.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 225,
+      "timestamp": 7.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6041557192802429,
+          "bounding_box": [
+            321.4353332519531,
+            187.21673583984375,
+            515.1148071289062,
+            259.009521484375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 226,
+      "timestamp": 7.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 227,
+      "timestamp": 7.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 228,
+      "timestamp": 7.6,
+      "detections": []
+    },
+    {
+      "frame_id": 229,
+      "timestamp": 7.633333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 230,
+      "timestamp": 7.666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 231,
+      "timestamp": 7.7,
+      "detections": []
+    },
+    {
+      "frame_id": 232,
+      "timestamp": 7.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 233,
+      "timestamp": 7.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 234,
+      "timestamp": 7.8,
+      "detections": []
+    },
+    {
+      "frame_id": 235,
+      "timestamp": 7.833333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 236,
+      "timestamp": 7.866666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 237,
+      "timestamp": 7.9,
+      "detections": []
+    },
+    {
+      "frame_id": 238,
+      "timestamp": 7.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 239,
+      "timestamp": 7.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 240,
+      "timestamp": 8.0,
+      "detections": []
+    },
+    {
+      "frame_id": 241,
+      "timestamp": 8.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 242,
+      "timestamp": 8.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 243,
+      "timestamp": 8.1,
+      "detections": []
+    },
+    {
+      "frame_id": 244,
+      "timestamp": 8.133333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6245627403259277,
+          "bounding_box": [
+            379.353515625,
+            176.43064880371094,
+            547.7999267578125,
+            255.09280395507812
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 245,
+      "timestamp": 8.166666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6462164521217346,
+          "bounding_box": [
+            408.00506591796875,
+            176.33644104003906,
+            552.5076904296875,
+            252.46742248535156
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 246,
+      "timestamp": 8.2,
+      "detections": []
+    },
+    {
+      "frame_id": 247,
+      "timestamp": 8.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 248,
+      "timestamp": 8.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 249,
+      "timestamp": 8.3,
+      "detections": []
+    },
+    {
+      "frame_id": 250,
+      "timestamp": 8.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 251,
+      "timestamp": 8.366666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7301311492919922,
+          "bounding_box": [
+            388.6423645019531,
+            170.21115112304688,
+            521.4741821289062,
+            254.6254425048828
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 252,
+      "timestamp": 8.4,
+      "detections": []
+    },
+    {
+      "frame_id": 253,
+      "timestamp": 8.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 254,
+      "timestamp": 8.466666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7361705899238586,
+          "bounding_box": [
+            375.02557373046875,
+            165.655517578125,
+            505.7210693359375,
+            249.93638610839844
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 255,
+      "timestamp": 8.5,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7431837916374207,
+          "bounding_box": [
+            366.52264404296875,
+            162.78453063964844,
+            507.00628662109375,
+            252.7960205078125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 256,
+      "timestamp": 8.533333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7281537055969238,
+          "bounding_box": [
+            362.55517578125,
+            162.5809783935547,
+            496.67327880859375,
+            252.71517944335938
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 257,
+      "timestamp": 8.566666666666666,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6812361478805542,
+          "bounding_box": [
+            349.7193298339844,
+            163.06947326660156,
+            491.5707702636719,
+            253.80580139160156
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 258,
+      "timestamp": 8.6,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6508153080940247,
+          "bounding_box": [
+            338.0979919433594,
+            164.3859100341797,
+            489.062744140625,
+            256.64373779296875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 259,
+      "timestamp": 8.633333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7134278416633606,
+          "bounding_box": [
+            332.21337890625,
+            168.32656860351562,
+            478.4188537597656,
+            260.2087707519531
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 260,
+      "timestamp": 8.666666666666666,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6097928285598755,
+          "bounding_box": [
+            321.4074401855469,
+            168.6055450439453,
+            473.4565124511719,
+            265.4798278808594
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 261,
+      "timestamp": 8.7,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7047438025474548,
+          "bounding_box": [
+            307.3804931640625,
+            179.42677307128906,
+            466.1311340332031,
+            267.28179931640625
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 262,
+      "timestamp": 8.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 263,
+      "timestamp": 8.766666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7664895057678223,
+          "bounding_box": [
+            287.3749084472656,
+            189.39361572265625,
+            448.2121276855469,
+            277.63055419921875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 264,
+      "timestamp": 8.8,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.797208309173584,
+          "bounding_box": [
+            274.7281799316406,
+            190.89451599121094,
+            442.23980712890625,
+            282.07635498046875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 265,
+      "timestamp": 8.833333333333334,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7178245186805725,
+          "bounding_box": [
+            260.5096740722656,
+            190.18240356445312,
+            438.18157958984375,
+            283.5899658203125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 266,
+      "timestamp": 8.866666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6257907748222351,
+          "bounding_box": [
+            251.56695556640625,
+            189.0393524169922,
+            428.7297058105469,
+            286.2565612792969
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 267,
+      "timestamp": 8.9,
+      "detections": []
+    },
+    {
+      "frame_id": 268,
+      "timestamp": 8.933333333333334,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7514069676399231,
+          "bounding_box": [
+            237.36048889160156,
+            191.76031494140625,
+            423.5038757324219,
+            289.45062255859375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 269,
+      "timestamp": 8.966666666666667,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7274540662765503,
+          "bounding_box": [
+            230.18206787109375,
+            186.5619354248047,
+            421.119140625,
+            288.37646484375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 270,
+      "timestamp": 9.0,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.7036945819854736,
+          "bounding_box": [
+            222.34986877441406,
+            183.81044006347656,
+            419.1214294433594,
+            284.67913818359375
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 271,
+      "timestamp": 9.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 272,
+      "timestamp": 9.066666666666666,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6853984594345093,
+          "bounding_box": [
+            215.80079650878906,
+            173.8895263671875,
+            409.4308166503906,
+            278.83270263671875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 273,
+      "timestamp": 9.1,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6993165612220764,
+          "bounding_box": [
+            211.99722290039062,
+            169.5180206298828,
+            366.1502685546875,
+            276.3486328125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 274,
+      "timestamp": 9.133333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6558094620704651,
+          "bounding_box": [
+            200.54180908203125,
+            165.16033935546875,
+            418.6369323730469,
+            275.47625732421875
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 275,
+      "timestamp": 9.166666666666666,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.679449200630188,
+          "bounding_box": [
+            197.70883178710938,
+            162.14028930664062,
+            416.2843017578125,
+            274.4731750488281
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 276,
+      "timestamp": 9.2,
+      "detections": []
+    },
+    {
+      "frame_id": 277,
+      "timestamp": 9.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 278,
+      "timestamp": 9.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 279,
+      "timestamp": 9.3,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6394111514091492,
+          "bounding_box": [
+            191.75238037109375,
+            144.5875701904297,
+            416.1585388183594,
+            264.03338623046875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 280,
+      "timestamp": 9.333333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6216078400611877,
+          "bounding_box": [
+            186.06150817871094,
+            138.876220703125,
+            439.37310791015625,
+            262.60906982421875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 281,
+      "timestamp": 9.366666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7166522145271301,
+          "bounding_box": [
+            182.1489715576172,
+            135.86355590820312,
+            439.2410583496094,
+            261.5010681152344
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 282,
+      "timestamp": 9.4,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7405909299850464,
+          "bounding_box": [
+            190.7622528076172,
+            134.7906036376953,
+            440.6756286621094,
+            256.27685546875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 283,
+      "timestamp": 9.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 284,
+      "timestamp": 9.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 285,
+      "timestamp": 9.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6951230764389038,
+          "bounding_box": [
+            192.906494140625,
+            123.81140899658203,
+            444.5238342285156,
+            244.63058471679688
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 286,
+      "timestamp": 9.533333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.785330057144165,
+          "bounding_box": [
+            192.05606079101562,
+            115.85150146484375,
+            450.6715087890625,
+            243.60952758789062
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 287,
+      "timestamp": 9.566666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8222087025642395,
+          "bounding_box": [
+            196.95437622070312,
+            114.46116638183594,
+            458.4550476074219,
+            243.07669067382812
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 288,
+      "timestamp": 9.6,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7197507619857788,
+          "bounding_box": [
+            202.9831085205078,
+            109.81420135498047,
+            467.586669921875,
+            243.26881408691406
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 289,
+      "timestamp": 9.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 290,
+      "timestamp": 9.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 291,
+      "timestamp": 9.7,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6787757873535156,
+          "bounding_box": [
+            212.3927001953125,
+            114.7705307006836,
+            491.0814208984375,
+            248.66781616210938
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 292,
+      "timestamp": 9.733333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7072397470474243,
+          "bounding_box": [
+            213.5793914794922,
+            121.7131576538086,
+            496.8074951171875,
+            249.15235900878906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 293,
+      "timestamp": 9.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 294,
+      "timestamp": 9.8,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7180669903755188,
+          "bounding_box": [
+            223.25125122070312,
+            128.66748046875,
+            497.19195556640625,
+            258.305419921875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 295,
+      "timestamp": 9.833333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7417753338813782,
+          "bounding_box": [
+            225.3435516357422,
+            136.14590454101562,
+            501.3459777832031,
+            266.79205322265625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 296,
+      "timestamp": 9.866666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7731716632843018,
+          "bounding_box": [
+            231.75038146972656,
+            149.3560333251953,
+            505.2796936035156,
+            275.03662109375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 297,
+      "timestamp": 9.9,
+      "detections": []
+    },
+    {
+      "frame_id": 298,
+      "timestamp": 9.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 299,
+      "timestamp": 9.966666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7067845463752747,
+          "bounding_box": [
+            232.43699645996094,
+            176.616943359375,
+            500.2382507324219,
+            294.5647888183594
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 300,
+      "timestamp": 10.0,
+      "detections": []
+    },
+    {
+      "frame_id": 301,
+      "timestamp": 10.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 302,
+      "timestamp": 10.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 303,
+      "timestamp": 10.1,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6348838210105896,
+          "bounding_box": [
+            227.38475036621094,
+            176.89889526367188,
+            489.20050048828125,
+            297.9063720703125
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 304,
+      "timestamp": 10.133333333333333,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6135591864585876,
+          "bounding_box": [
+            227.94485473632812,
+            173.2727813720703,
+            482.28125,
+            296.5382995605469
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 305,
+      "timestamp": 10.166666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7045303583145142,
+          "bounding_box": [
+            229.00550842285156,
+            170.1951446533203,
+            477.2856750488281,
+            293.50067138671875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 306,
+      "timestamp": 10.2,
+      "detections": []
+    },
+    {
+      "frame_id": 307,
+      "timestamp": 10.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 308,
+      "timestamp": 10.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 309,
+      "timestamp": 10.3,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7432940006256104,
+          "bounding_box": [
+            198.97027587890625,
+            147.3243408203125,
+            455.3314514160156,
+            280.0291442871094
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 310,
+      "timestamp": 10.333333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7488200664520264,
+          "bounding_box": [
+            187.9796600341797,
+            140.44529724121094,
+            449.2993469238281,
+            274.1055908203125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 311,
+      "timestamp": 10.366666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7502819895744324,
+          "bounding_box": [
+            179.71485900878906,
+            133.26895141601562,
+            442.59716796875,
+            276.8150939941406
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 312,
+      "timestamp": 10.4,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6654643416404724,
+          "bounding_box": [
+            173.2241973876953,
+            134.50076293945312,
+            427.398681640625,
+            274.0318603515625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 313,
+      "timestamp": 10.433333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6135274767875671,
+          "bounding_box": [
+            162.42431640625,
+            127.11192321777344,
+            427.5451354980469,
+            272.6970520019531
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 314,
+      "timestamp": 10.466666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6786863207817078,
+          "bounding_box": [
+            157.51052856445312,
+            128.96517944335938,
+            412.37823486328125,
+            273.0178527832031
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 315,
+      "timestamp": 10.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6794636845588684,
+          "bounding_box": [
+            149.32241821289062,
+            123.37995147705078,
+            410.5150451660156,
+            272.0078430175781
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 316,
+      "timestamp": 10.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 317,
+      "timestamp": 10.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 318,
+      "timestamp": 10.6,
+      "detections": []
+    },
+    {
+      "frame_id": 319,
+      "timestamp": 10.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 320,
+      "timestamp": 10.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 321,
+      "timestamp": 10.7,
+      "detections": []
+    },
+    {
+      "frame_id": 322,
+      "timestamp": 10.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 323,
+      "timestamp": 10.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 324,
+      "timestamp": 10.8,
+      "detections": []
+    },
+    {
+      "frame_id": 325,
+      "timestamp": 10.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 326,
+      "timestamp": 10.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 327,
+      "timestamp": 10.9,
+      "detections": []
+    },
+    {
+      "frame_id": 328,
+      "timestamp": 10.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 329,
+      "timestamp": 10.966666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6625697016716003,
+          "bounding_box": [
+            143.53146362304688,
+            68.60466003417969,
+            447.7017517089844,
+            259.2135009765625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 330,
+      "timestamp": 11.0,
+      "detections": []
+    },
+    {
+      "frame_id": 331,
+      "timestamp": 11.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 332,
+      "timestamp": 11.066666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6872246265411377,
+          "bounding_box": [
+            158.2740478515625,
+            70.20308685302734,
+            470.9388122558594,
+            259.5295715332031
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 333,
+      "timestamp": 11.1,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6129935383796692,
+          "bounding_box": [
+            163.87527465820312,
+            68.99580383300781,
+            486.0110168457031,
+            263.04315185546875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 334,
+      "timestamp": 11.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 335,
+      "timestamp": 11.166666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6524114012718201,
+          "bounding_box": [
+            171.96319580078125,
+            70.5157470703125,
+            486.6807861328125,
+            254.92567443847656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 336,
+      "timestamp": 11.2,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7433580160140991,
+          "bounding_box": [
+            182.7462921142578,
+            75.80977630615234,
+            493.7471923828125,
+            269.4107360839844
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 337,
+      "timestamp": 11.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 338,
+      "timestamp": 11.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 339,
+      "timestamp": 11.3,
+      "detections": []
+    },
+    {
+      "frame_id": 340,
+      "timestamp": 11.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 341,
+      "timestamp": 11.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 342,
+      "timestamp": 11.4,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6331257820129395,
+          "bounding_box": [
+            200.04942321777344,
+            55.00772476196289,
+            538.151123046875,
+            268.69830322265625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 343,
+      "timestamp": 11.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 344,
+      "timestamp": 11.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 345,
+      "timestamp": 11.5,
+      "detections": []
+    },
+    {
+      "frame_id": 346,
+      "timestamp": 11.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 347,
+      "timestamp": 11.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 348,
+      "timestamp": 11.6,
+      "detections": []
+    },
+    {
+      "frame_id": 349,
+      "timestamp": 11.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 350,
+      "timestamp": 11.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 351,
+      "timestamp": 11.7,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6315760016441345,
+          "bounding_box": [
+            256.967041015625,
+            60.8500862121582,
+            530.818115234375,
+            253.9680633544922
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 352,
+      "timestamp": 11.733333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8070164918899536,
+          "bounding_box": [
+            265.20989990234375,
+            56.8334846496582,
+            529.0553588867188,
+            249.6951446533203
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 353,
+      "timestamp": 11.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 354,
+      "timestamp": 11.8,
+      "detections": []
+    },
+    {
+      "frame_id": 355,
+      "timestamp": 11.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 356,
+      "timestamp": 11.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 357,
+      "timestamp": 11.9,
+      "detections": []
+    },
+    {
+      "frame_id": 358,
+      "timestamp": 11.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 359,
+      "timestamp": 11.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 360,
+      "timestamp": 12.0,
+      "detections": []
+    },
+    {
+      "frame_id": 361,
+      "timestamp": 12.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 362,
+      "timestamp": 12.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 363,
+      "timestamp": 12.1,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6585689783096313,
+          "bounding_box": [
+            300.9432373046875,
+            51.66410827636719,
+            565.7203979492188,
+            229.12696838378906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 364,
+      "timestamp": 12.133333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.815625011920929,
+          "bounding_box": [
+            299.4410400390625,
+            54.91978073120117,
+            568.9617919921875,
+            244.42849731445312
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 365,
+      "timestamp": 12.166666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7977389693260193,
+          "bounding_box": [
+            296.248291015625,
+            55.140743255615234,
+            571.6315307617188,
+            244.00856018066406
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 366,
+      "timestamp": 12.2,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8166632652282715,
+          "bounding_box": [
+            283.9088439941406,
+            56.11768341064453,
+            576.455078125,
+            226.59921264648438
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 367,
+      "timestamp": 12.233333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7785231471061707,
+          "bounding_box": [
+            275.1469421386719,
+            56.35566329956055,
+            578.5471801757812,
+            237.46336364746094
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 368,
+      "timestamp": 12.266666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7812649607658386,
+          "bounding_box": [
+            269.228759765625,
+            57.09293746948242,
+            582.1632690429688,
+            241.0821990966797
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 369,
+      "timestamp": 12.3,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8041643500328064,
+          "bounding_box": [
+            269.249755859375,
+            57.31877136230469,
+            586.1695556640625,
+            245.03900146484375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 370,
+      "timestamp": 12.333333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7892629504203796,
+          "bounding_box": [
+            262.13134765625,
+            55.39069747924805,
+            586.9319458007812,
+            224.17872619628906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 371,
+      "timestamp": 12.366666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8282164931297302,
+          "bounding_box": [
+            260.4239196777344,
+            55.63856506347656,
+            589.5944213867188,
+            241.0283966064453
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 372,
+      "timestamp": 12.4,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.838463544845581,
+          "bounding_box": [
+            258.71612548828125,
+            60.000877380371094,
+            593.2610473632812,
+            232.9134979248047
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 373,
+      "timestamp": 12.433333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8130469918251038,
+          "bounding_box": [
+            256.32196044921875,
+            56.471553802490234,
+            594.0394897460938,
+            242.14407348632812
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 374,
+      "timestamp": 12.466666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8165391683578491,
+          "bounding_box": [
+            247.6601104736328,
+            63.32288360595703,
+            602.2035522460938,
+            250.1462860107422
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 375,
+      "timestamp": 12.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8451815843582153,
+          "bounding_box": [
+            249.39329528808594,
+            67.77227020263672,
+            603.0840454101562,
+            257.25445556640625
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 376,
+      "timestamp": 12.533333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8459517359733582,
+          "bounding_box": [
+            248.3950653076172,
+            65.90177154541016,
+            599.5799560546875,
+            228.92019653320312
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 377,
+      "timestamp": 12.566666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8652399778366089,
+          "bounding_box": [
+            244.00306701660156,
+            73.5391845703125,
+            600.545166015625,
+            239.78823852539062
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 378,
+      "timestamp": 12.6,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8706929683685303,
+          "bounding_box": [
+            244.6059112548828,
+            76.2993392944336,
+            606.405517578125,
+            247.70315551757812
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 379,
+      "timestamp": 12.633333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8708468079566956,
+          "bounding_box": [
+            239.81687927246094,
+            89.35427856445312,
+            605.463623046875,
+            252.88563537597656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 380,
+      "timestamp": 12.666666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.9140064120292664,
+          "bounding_box": [
+            236.14271545410156,
+            95.41239929199219,
+            614.3423461914062,
+            270.5400085449219
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 381,
+      "timestamp": 12.7,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8834035992622375,
+          "bounding_box": [
+            244.50247192382812,
+            106.49413299560547,
+            606.7515258789062,
+            275.1985168457031
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 382,
+      "timestamp": 12.733333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8175128698348999,
+          "bounding_box": [
+            243.08253479003906,
+            123.65219116210938,
+            620.1599731445312,
+            283.4509582519531
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 383,
+      "timestamp": 12.766666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8105696439743042,
+          "bounding_box": [
+            243.7284698486328,
+            128.87303161621094,
+            603.5076293945312,
+            300.0674133300781
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 384,
+      "timestamp": 12.8,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8756084442138672,
+          "bounding_box": [
+            245.8813934326172,
+            132.7708282470703,
+            602.3817749023438,
+            304.7259216308594
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 385,
+      "timestamp": 12.833333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8514493107795715,
+          "bounding_box": [
+            254.18136596679688,
+            134.65638732910156,
+            601.4984130859375,
+            300.381591796875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 386,
+      "timestamp": 12.866666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8468564748764038,
+          "bounding_box": [
+            254.60960388183594,
+            147.10256958007812,
+            598.8054809570312,
+            301.8419189453125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 387,
+      "timestamp": 12.9,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.839600682258606,
+          "bounding_box": [
+            256.26019287109375,
+            152.7636260986328,
+            598.6561279296875,
+            295.9324035644531
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 388,
+      "timestamp": 12.933333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.823569118976593,
+          "bounding_box": [
+            259.7330627441406,
+            158.5448760986328,
+            596.3331909179688,
+            298.44580078125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 389,
+      "timestamp": 12.966666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8103962540626526,
+          "bounding_box": [
+            267.3708801269531,
+            160.99302673339844,
+            600.1155395507812,
+            303.5604553222656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 390,
+      "timestamp": 13.0,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.77447509765625,
+          "bounding_box": [
+            265.1084899902344,
+            167.3478546142578,
+            595.424560546875,
+            305.145751953125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 391,
+      "timestamp": 13.033333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7828544974327087,
+          "bounding_box": [
+            268.3221740722656,
+            167.88116455078125,
+            592.8024291992188,
+            305.6954650878906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 392,
+      "timestamp": 13.066666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.790529727935791,
+          "bounding_box": [
+            272.1986083984375,
+            165.9745635986328,
+            584.8206176757812,
+            306.1472473144531
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 393,
+      "timestamp": 13.1,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7294352650642395,
+          "bounding_box": [
+            269.7086486816406,
+            161.01600646972656,
+            581.9784545898438,
+            301.7403869628906
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 394,
+      "timestamp": 13.133333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6560725569725037,
+          "bounding_box": [
+            268.91302490234375,
+            161.9396514892578,
+            573.3789672851562,
+            297.8423156738281
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 395,
+      "timestamp": 13.166666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.669818103313446,
+          "bounding_box": [
+            269.78466796875,
+            164.58786010742188,
+            565.7418212890625,
+            299.41595458984375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 396,
+      "timestamp": 13.2,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7020190358161926,
+          "bounding_box": [
+            269.55010986328125,
+            170.42396545410156,
+            562.2198486328125,
+            298.7441711425781
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 397,
+      "timestamp": 13.233333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7372856736183167,
+          "bounding_box": [
+            270.02130126953125,
+            172.79747009277344,
+            554.74609375,
+            297.2442321777344
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 398,
+      "timestamp": 13.266666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6593726277351379,
+          "bounding_box": [
+            268.5705871582031,
+            172.95933532714844,
+            536.4491577148438,
+            299.6766662597656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 399,
+      "timestamp": 13.3,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6042807698249817,
+          "bounding_box": [
+            263.0056457519531,
+            179.64891052246094,
+            525.8156127929688,
+            304.6500549316406
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 400,
+      "timestamp": 13.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 401,
+      "timestamp": 13.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 402,
+      "timestamp": 13.4,
+      "detections": []
+    },
+    {
+      "frame_id": 403,
+      "timestamp": 13.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 404,
+      "timestamp": 13.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 405,
+      "timestamp": 13.5,
+      "detections": []
+    },
+    {
+      "frame_id": 406,
+      "timestamp": 13.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 407,
+      "timestamp": 13.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 408,
+      "timestamp": 13.6,
+      "detections": []
+    },
+    {
+      "frame_id": 409,
+      "timestamp": 13.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 410,
+      "timestamp": 13.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 411,
+      "timestamp": 13.7,
+      "detections": [
+        {
+          "class": "bird",
+          "confidence": 0.6307750940322876,
+          "bounding_box": [
+            224.88534545898438,
+            165.39002990722656,
+            431.6370849609375,
+            277.7940979003906
+          ],
+          "threat_level": "Low",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 412,
+      "timestamp": 13.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 413,
+      "timestamp": 13.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 414,
+      "timestamp": 13.8,
+      "detections": []
+    },
+    {
+      "frame_id": 415,
+      "timestamp": 13.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 416,
+      "timestamp": 13.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 417,
+      "timestamp": 13.9,
+      "detections": []
+    },
+    {
+      "frame_id": 418,
+      "timestamp": 13.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 419,
+      "timestamp": 13.966666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6824415326118469,
+          "bounding_box": [
+            358.1018371582031,
+            161.8809814453125,
+            496.34295654296875,
+            245.24032592773438
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 420,
+      "timestamp": 14.0,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6160585880279541,
+          "bounding_box": [
+            354.3794860839844,
+            155.451416015625,
+            503.7026672363281,
+            241.70428466796875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 421,
+      "timestamp": 14.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 422,
+      "timestamp": 14.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 423,
+      "timestamp": 14.1,
+      "detections": []
+    },
+    {
+      "frame_id": 424,
+      "timestamp": 14.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 425,
+      "timestamp": 14.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 426,
+      "timestamp": 14.2,
+      "detections": []
+    },
+    {
+      "frame_id": 427,
+      "timestamp": 14.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 428,
+      "timestamp": 14.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 429,
+      "timestamp": 14.3,
+      "detections": []
+    },
+    {
+      "frame_id": 430,
+      "timestamp": 14.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 431,
+      "timestamp": 14.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 432,
+      "timestamp": 14.4,
+      "detections": []
+    },
+    {
+      "frame_id": 433,
+      "timestamp": 14.433333333333334,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6282636523246765,
+          "bounding_box": [
+            277.93701171875,
+            123.55497741699219,
+            586.4109497070312,
+            249.6651153564453
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 434,
+      "timestamp": 14.466666666666667,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.735623300075531,
+          "bounding_box": [
+            286.95703125,
+            157.5393829345703,
+            542.8616943359375,
+            253.77459716796875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 435,
+      "timestamp": 14.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8482065200805664,
+          "bounding_box": [
+            276.2481689453125,
+            151.8015594482422,
+            520.4314575195312,
+            241.75540161132812
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 436,
+      "timestamp": 14.533333333333333,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.8405846953392029,
+          "bounding_box": [
+            295.21783447265625,
+            145.0314178466797,
+            540.0660400390625,
+            241.66236877441406
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 437,
+      "timestamp": 14.566666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.711156964302063,
+          "bounding_box": [
+            281.83636474609375,
+            146.87989807128906,
+            524.7898559570312,
+            265.1217956542969
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 438,
+      "timestamp": 14.6,
+      "detections": []
+    },
+    {
+      "frame_id": 439,
+      "timestamp": 14.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 440,
+      "timestamp": 14.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 441,
+      "timestamp": 14.7,
+      "detections": []
+    },
+    {
+      "frame_id": 442,
+      "timestamp": 14.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 443,
+      "timestamp": 14.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 444,
+      "timestamp": 14.8,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.7088954448699951,
+          "bounding_box": [
+            333.82977294921875,
+            268.3203125,
+            527.564453125,
+            333.36602783203125
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 445,
+      "timestamp": 14.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 446,
+      "timestamp": 14.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 447,
+      "timestamp": 14.9,
+      "detections": []
+    },
+    {
+      "frame_id": 448,
+      "timestamp": 14.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 449,
+      "timestamp": 14.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 450,
+      "timestamp": 15.0,
+      "detections": []
+    },
+    {
+      "frame_id": 451,
+      "timestamp": 15.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 452,
+      "timestamp": 15.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 453,
+      "timestamp": 15.1,
+      "detections": []
+    },
+    {
+      "frame_id": 454,
+      "timestamp": 15.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 455,
+      "timestamp": 15.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 456,
+      "timestamp": 15.2,
+      "detections": []
+    },
+    {
+      "frame_id": 457,
+      "timestamp": 15.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 458,
+      "timestamp": 15.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 459,
+      "timestamp": 15.3,
+      "detections": []
+    },
+    {
+      "frame_id": 460,
+      "timestamp": 15.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 461,
+      "timestamp": 15.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 462,
+      "timestamp": 15.4,
+      "detections": []
+    },
+    {
+      "frame_id": 463,
+      "timestamp": 15.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 464,
+      "timestamp": 15.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 465,
+      "timestamp": 15.5,
+      "detections": []
+    },
+    {
+      "frame_id": 466,
+      "timestamp": 15.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 467,
+      "timestamp": 15.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 468,
+      "timestamp": 15.6,
+      "detections": []
+    },
+    {
+      "frame_id": 469,
+      "timestamp": 15.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 470,
+      "timestamp": 15.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 471,
+      "timestamp": 15.7,
+      "detections": []
+    },
+    {
+      "frame_id": 472,
+      "timestamp": 15.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 473,
+      "timestamp": 15.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 474,
+      "timestamp": 15.8,
+      "detections": []
+    },
+    {
+      "frame_id": 475,
+      "timestamp": 15.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 476,
+      "timestamp": 15.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 477,
+      "timestamp": 15.9,
+      "detections": []
+    },
+    {
+      "frame_id": 478,
+      "timestamp": 15.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 479,
+      "timestamp": 15.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 480,
+      "timestamp": 16.0,
+      "detections": []
+    },
+    {
+      "frame_id": 481,
+      "timestamp": 16.033333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 482,
+      "timestamp": 16.066666666666666,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6411959528923035,
+          "bounding_box": [
+            336.9410400390625,
+            207.1661376953125,
+            471.6638488769531,
+            272.7039794921875
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 483,
+      "timestamp": 16.1,
+      "detections": []
+    },
+    {
+      "frame_id": 484,
+      "timestamp": 16.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 485,
+      "timestamp": 16.166666666666668,
+      "detections": []
+    },
+    {
+      "frame_id": 486,
+      "timestamp": 16.2,
+      "detections": []
+    },
+    {
+      "frame_id": 487,
+      "timestamp": 16.233333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 488,
+      "timestamp": 16.266666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 489,
+      "timestamp": 16.3,
+      "detections": []
+    },
+    {
+      "frame_id": 490,
+      "timestamp": 16.333333333333332,
+      "detections": []
+    },
+    {
+      "frame_id": 491,
+      "timestamp": 16.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 492,
+      "timestamp": 16.4,
+      "detections": []
+    },
+    {
+      "frame_id": 493,
+      "timestamp": 16.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 494,
+      "timestamp": 16.466666666666665,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6469795107841492,
+          "bounding_box": [
+            327.31048583984375,
+            171.64517211914062,
+            449.6874694824219,
+            242.779052734375
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 495,
+      "timestamp": 16.5,
+      "detections": []
+    },
+    {
+      "frame_id": 496,
+      "timestamp": 16.533333333333335,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6634557247161865,
+          "bounding_box": [
+            317.2137145996094,
+            170.53372192382812,
+            450.0976867675781,
+            230.9887237548828
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 497,
+      "timestamp": 16.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 498,
+      "timestamp": 16.6,
+      "detections": []
+    },
+    {
+      "frame_id": 499,
+      "timestamp": 16.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 500,
+      "timestamp": 16.666666666666668,
+      "detections": []
+    },
+    {
+      "frame_id": 501,
+      "timestamp": 16.7,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6715289354324341,
+          "bounding_box": [
+            292.8816223144531,
+            174.2589111328125,
+            414.9322204589844,
+            243.82199096679688
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 502,
+      "timestamp": 16.733333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 503,
+      "timestamp": 16.766666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 504,
+      "timestamp": 16.8,
+      "detections": []
+    },
+    {
+      "frame_id": 505,
+      "timestamp": 16.833333333333332,
+      "detections": []
+    },
+    {
+      "frame_id": 506,
+      "timestamp": 16.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 507,
+      "timestamp": 16.9,
+      "detections": []
+    },
+    {
+      "frame_id": 508,
+      "timestamp": 16.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 509,
+      "timestamp": 16.966666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 510,
+      "timestamp": 17.0,
+      "detections": []
+    },
+    {
+      "frame_id": 511,
+      "timestamp": 17.033333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 512,
+      "timestamp": 17.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 513,
+      "timestamp": 17.1,
+      "detections": []
+    },
+    {
+      "frame_id": 514,
+      "timestamp": 17.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 515,
+      "timestamp": 17.166666666666668,
+      "detections": []
+    },
+    {
+      "frame_id": 516,
+      "timestamp": 17.2,
+      "detections": []
+    },
+    {
+      "frame_id": 517,
+      "timestamp": 17.233333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 518,
+      "timestamp": 17.266666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 519,
+      "timestamp": 17.3,
+      "detections": []
+    },
+    {
+      "frame_id": 520,
+      "timestamp": 17.333333333333332,
+      "detections": []
+    },
+    {
+      "frame_id": 521,
+      "timestamp": 17.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 522,
+      "timestamp": 17.4,
+      "detections": []
+    },
+    {
+      "frame_id": 523,
+      "timestamp": 17.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 524,
+      "timestamp": 17.466666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 525,
+      "timestamp": 17.5,
+      "detections": [
+        {
+          "class": "drone",
+          "confidence": 0.6289006471633911,
+          "bounding_box": [
+            164.31732177734375,
+            246.4266815185547,
+            354.5390930175781,
+            335.0292053222656
+          ],
+          "threat_level": "High",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 526,
+      "timestamp": 17.533333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 527,
+      "timestamp": 17.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 528,
+      "timestamp": 17.6,
+      "detections": []
+    },
+    {
+      "frame_id": 529,
+      "timestamp": 17.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 530,
+      "timestamp": 17.666666666666668,
+      "detections": []
+    },
+    {
+      "frame_id": 531,
+      "timestamp": 17.7,
+      "detections": []
+    },
+    {
+      "frame_id": 532,
+      "timestamp": 17.733333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 533,
+      "timestamp": 17.766666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 534,
+      "timestamp": 17.8,
+      "detections": []
+    },
+    {
+      "frame_id": 535,
+      "timestamp": 17.833333333333332,
+      "detections": []
+    },
+    {
+      "frame_id": 536,
+      "timestamp": 17.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 537,
+      "timestamp": 17.9,
+      "detections": []
+    },
+    {
+      "frame_id": 538,
+      "timestamp": 17.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 539,
+      "timestamp": 17.966666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 540,
+      "timestamp": 18.0,
+      "detections": []
+    },
+    {
+      "frame_id": 541,
+      "timestamp": 18.033333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 542,
+      "timestamp": 18.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 543,
+      "timestamp": 18.1,
+      "detections": []
+    },
+    {
+      "frame_id": 544,
+      "timestamp": 18.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 545,
+      "timestamp": 18.166666666666668,
+      "detections": []
+    },
+    {
+      "frame_id": 546,
+      "timestamp": 18.2,
+      "detections": []
+    },
+    {
+      "frame_id": 547,
+      "timestamp": 18.233333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 548,
+      "timestamp": 18.266666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 549,
+      "timestamp": 18.3,
+      "detections": []
+    },
+    {
+      "frame_id": 550,
+      "timestamp": 18.333333333333332,
+      "detections": []
+    },
+    {
+      "frame_id": 551,
+      "timestamp": 18.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 552,
+      "timestamp": 18.4,
+      "detections": []
+    },
+    {
+      "frame_id": 553,
+      "timestamp": 18.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 554,
+      "timestamp": 18.466666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 555,
+      "timestamp": 18.5,
+      "detections": []
+    },
+    {
+      "frame_id": 556,
+      "timestamp": 18.533333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 557,
+      "timestamp": 18.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 558,
+      "timestamp": 18.6,
+      "detections": []
+    },
+    {
+      "frame_id": 559,
+      "timestamp": 18.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 560,
+      "timestamp": 18.666666666666668,
+      "detections": []
+    },
+    {
+      "frame_id": 561,
+      "timestamp": 18.7,
+      "detections": []
+    },
+    {
+      "frame_id": 562,
+      "timestamp": 18.733333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 563,
+      "timestamp": 18.766666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 564,
+      "timestamp": 18.8,
+      "detections": []
+    },
+    {
+      "frame_id": 565,
+      "timestamp": 18.833333333333332,
+      "detections": []
+    },
+    {
+      "frame_id": 566,
+      "timestamp": 18.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 567,
+      "timestamp": 18.9,
+      "detections": []
+    },
+    {
+      "frame_id": 568,
+      "timestamp": 18.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 569,
+      "timestamp": 18.966666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 570,
+      "timestamp": 19.0,
+      "detections": []
+    },
+    {
+      "frame_id": 571,
+      "timestamp": 19.033333333333335,
+      "detections": []
+    }
+  ]
+}

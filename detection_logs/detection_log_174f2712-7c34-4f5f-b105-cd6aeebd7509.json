@@ -1,0 +1,4015 @@
+{
+  "metadata": {
+    "processing_time_seconds": 49.90325880050659,
+    "processed_fps": 9.037485944613735,
+    "video_length_seconds": 15.033333333333333,
+    "threat_summary": {
+      "birds": 0,
+      "drones": 0,
+      "missiles": 109,
+      "highest_threat_level": "Critical"
+    },
+    "analysis_timestamp": "2025-03-02T00:18:01.849352"
+  },
+  "frames": [
+    {
+      "frame_id": 0,
+      "timestamp": 0.0,
+      "detections": []
+    },
+    {
+      "frame_id": 1,
+      "timestamp": 0.03333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 2,
+      "timestamp": 0.06666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 3,
+      "timestamp": 0.1,
+      "detections": []
+    },
+    {
+      "frame_id": 4,
+      "timestamp": 0.13333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 5,
+      "timestamp": 0.16666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 6,
+      "timestamp": 0.2,
+      "detections": []
+    },
+    {
+      "frame_id": 7,
+      "timestamp": 0.23333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 8,
+      "timestamp": 0.26666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 9,
+      "timestamp": 0.3,
+      "detections": []
+    },
+    {
+      "frame_id": 10,
+      "timestamp": 0.3333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 11,
+      "timestamp": 0.36666666666666664,
+      "detections": []
+    },
+    {
+      "frame_id": 12,
+      "timestamp": 0.4,
+      "detections": []
+    },
+    {
+      "frame_id": 13,
+      "timestamp": 0.43333333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 14,
+      "timestamp": 0.4666666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6007285118103027,
+          "bounding_box": [
+            365.6756896972656,
+            138.1240692138672,
+            391.3272399902344,
+            328.6736145019531
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 15,
+      "timestamp": 0.5,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6116623878479004,
+          "bounding_box": [
+            364.41400146484375,
+            138.543212890625,
+            391.35845947265625,
+            329.7509765625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 16,
+      "timestamp": 0.5333333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6224774122238159,
+          "bounding_box": [
+            363.522705078125,
+            139.966064453125,
+            391.0972595214844,
+            329.7574768066406
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 17,
+      "timestamp": 0.5666666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6149972081184387,
+          "bounding_box": [
+            363.0034484863281,
+            139.57252502441406,
+            390.6517639160156,
+            330.4796142578125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 18,
+      "timestamp": 0.6,
+      "detections": []
+    },
+    {
+      "frame_id": 19,
+      "timestamp": 0.6333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 20,
+      "timestamp": 0.6666666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6189163327217102,
+          "bounding_box": [
+            362.51995849609375,
+            136.02972412109375,
+            391.74078369140625,
+            326.8023986816406
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 21,
+      "timestamp": 0.7,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6347288489341736,
+          "bounding_box": [
+            362.1998291015625,
+            133.4651641845703,
+            392.3162536621094,
+            325.7139587402344
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 22,
+      "timestamp": 0.7333333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6022345423698425,
+          "bounding_box": [
+            362.47723388671875,
+            135.06985473632812,
+            390.32611083984375,
+            324.7363586425781
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 23,
+      "timestamp": 0.7666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 24,
+      "timestamp": 0.8,
+      "detections": []
+    },
+    {
+      "frame_id": 25,
+      "timestamp": 0.8333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 26,
+      "timestamp": 0.8666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 27,
+      "timestamp": 0.9,
+      "detections": []
+    },
+    {
+      "frame_id": 28,
+      "timestamp": 0.9333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 29,
+      "timestamp": 0.9666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 30,
+      "timestamp": 1.0,
+      "detections": []
+    },
+    {
+      "frame_id": 31,
+      "timestamp": 1.0333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 32,
+      "timestamp": 1.0666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 33,
+      "timestamp": 1.1,
+      "detections": []
+    },
+    {
+      "frame_id": 34,
+      "timestamp": 1.1333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 35,
+      "timestamp": 1.1666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 36,
+      "timestamp": 1.2,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.606490433216095,
+          "bounding_box": [
+            362.4334411621094,
+            129.8334197998047,
+            391.60308837890625,
+            318.2192077636719
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 37,
+      "timestamp": 1.2333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 38,
+      "timestamp": 1.2666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 39,
+      "timestamp": 1.3,
+      "detections": []
+    },
+    {
+      "frame_id": 40,
+      "timestamp": 1.3333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 41,
+      "timestamp": 1.3666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 42,
+      "timestamp": 1.4,
+      "detections": []
+    },
+    {
+      "frame_id": 43,
+      "timestamp": 1.4333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 44,
+      "timestamp": 1.4666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 45,
+      "timestamp": 1.5,
+      "detections": []
+    },
+    {
+      "frame_id": 46,
+      "timestamp": 1.5333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 47,
+      "timestamp": 1.5666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 48,
+      "timestamp": 1.6,
+      "detections": []
+    },
+    {
+      "frame_id": 49,
+      "timestamp": 1.6333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 50,
+      "timestamp": 1.6666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 51,
+      "timestamp": 1.7,
+      "detections": []
+    },
+    {
+      "frame_id": 52,
+      "timestamp": 1.7333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 53,
+      "timestamp": 1.7666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 54,
+      "timestamp": 1.8,
+      "detections": []
+    },
+    {
+      "frame_id": 55,
+      "timestamp": 1.8333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 56,
+      "timestamp": 1.8666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 57,
+      "timestamp": 1.9,
+      "detections": []
+    },
+    {
+      "frame_id": 58,
+      "timestamp": 1.9333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 59,
+      "timestamp": 1.9666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 60,
+      "timestamp": 2.0,
+      "detections": []
+    },
+    {
+      "frame_id": 61,
+      "timestamp": 2.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 62,
+      "timestamp": 2.066666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 63,
+      "timestamp": 2.1,
+      "detections": []
+    },
+    {
+      "frame_id": 64,
+      "timestamp": 2.1333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 65,
+      "timestamp": 2.1666666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 66,
+      "timestamp": 2.2,
+      "detections": []
+    },
+    {
+      "frame_id": 67,
+      "timestamp": 2.2333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 68,
+      "timestamp": 2.2666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 69,
+      "timestamp": 2.3,
+      "detections": []
+    },
+    {
+      "frame_id": 70,
+      "timestamp": 2.3333333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 71,
+      "timestamp": 2.3666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 72,
+      "timestamp": 2.4,
+      "detections": []
+    },
+    {
+      "frame_id": 73,
+      "timestamp": 2.433333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 74,
+      "timestamp": 2.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 75,
+      "timestamp": 2.5,
+      "detections": []
+    },
+    {
+      "frame_id": 76,
+      "timestamp": 2.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 77,
+      "timestamp": 2.566666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 78,
+      "timestamp": 2.6,
+      "detections": []
+    },
+    {
+      "frame_id": 79,
+      "timestamp": 2.6333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 80,
+      "timestamp": 2.6666666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 81,
+      "timestamp": 2.7,
+      "detections": []
+    },
+    {
+      "frame_id": 82,
+      "timestamp": 2.7333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 83,
+      "timestamp": 2.7666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 84,
+      "timestamp": 2.8,
+      "detections": []
+    },
+    {
+      "frame_id": 85,
+      "timestamp": 2.8333333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 86,
+      "timestamp": 2.8666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 87,
+      "timestamp": 2.9,
+      "detections": []
+    },
+    {
+      "frame_id": 88,
+      "timestamp": 2.933333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 89,
+      "timestamp": 2.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 90,
+      "timestamp": 3.0,
+      "detections": []
+    },
+    {
+      "frame_id": 91,
+      "timestamp": 3.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 92,
+      "timestamp": 3.066666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 93,
+      "timestamp": 3.1,
+      "detections": []
+    },
+    {
+      "frame_id": 94,
+      "timestamp": 3.1333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 95,
+      "timestamp": 3.1666666666666665,
+      "detections": []
+    },
+    {
+      "frame_id": 96,
+      "timestamp": 3.2,
+      "detections": []
+    },
+    {
+      "frame_id": 97,
+      "timestamp": 3.2333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 98,
+      "timestamp": 3.2666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 99,
+      "timestamp": 3.3,
+      "detections": []
+    },
+    {
+      "frame_id": 100,
+      "timestamp": 3.3333333333333335,
+      "detections": []
+    },
+    {
+      "frame_id": 101,
+      "timestamp": 3.3666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 102,
+      "timestamp": 3.4,
+      "detections": []
+    },
+    {
+      "frame_id": 103,
+      "timestamp": 3.433333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 104,
+      "timestamp": 3.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 105,
+      "timestamp": 3.5,
+      "detections": []
+    },
+    {
+      "frame_id": 106,
+      "timestamp": 3.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 107,
+      "timestamp": 3.566666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 108,
+      "timestamp": 3.6,
+      "detections": []
+    },
+    {
+      "frame_id": 109,
+      "timestamp": 3.6333333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.689064621925354,
+          "bounding_box": [
+            323.7879333496094,
+            165.99819946289062,
+            398.31072998046875,
+            321.1344909667969
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 110,
+      "timestamp": 3.6666666666666665,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6768662333488464,
+          "bounding_box": [
+            320.7297668457031,
+            168.4883575439453,
+            397.7895812988281,
+            325.5542297363281
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 111,
+      "timestamp": 3.7,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6740175485610962,
+          "bounding_box": [
+            317.73724365234375,
+            169.2437286376953,
+            399.9653015136719,
+            324.9461364746094
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 112,
+      "timestamp": 3.7333333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7060714960098267,
+          "bounding_box": [
+            316.3968200683594,
+            171.14651489257812,
+            400.3089904785156,
+            326.02703857421875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 113,
+      "timestamp": 3.7666666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7211025953292847,
+          "bounding_box": [
+            315.97021484375,
+            171.31431579589844,
+            400.3838806152344,
+            325.26763916015625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 114,
+      "timestamp": 3.8,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7241575121879578,
+          "bounding_box": [
+            315.998046875,
+            173.4589385986328,
+            400.46044921875,
+            326.38140869140625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 115,
+      "timestamp": 3.8333333333333335,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7303450107574463,
+          "bounding_box": [
+            316.1303405761719,
+            173.36534118652344,
+            401.0518493652344,
+            325.70050048828125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 116,
+      "timestamp": 3.8666666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7368916273117065,
+          "bounding_box": [
+            314.3782958984375,
+            172.97474670410156,
+            401.3212890625,
+            325.3850402832031
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 117,
+      "timestamp": 3.9,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7098337411880493,
+          "bounding_box": [
+            314.2016296386719,
+            173.15219116210938,
+            402.64178466796875,
+            326.68719482421875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 118,
+      "timestamp": 3.933333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7128111124038696,
+          "bounding_box": [
+            314.4100646972656,
+            176.67861938476562,
+            402.5014343261719,
+            330.4219665527344
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 119,
+      "timestamp": 3.966666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7019623517990112,
+          "bounding_box": [
+            311.2372131347656,
+            180.14581298828125,
+            402.8444519042969,
+            326.2322998046875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 120,
+      "timestamp": 4.0,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7526946663856506,
+          "bounding_box": [
+            310.225830078125,
+            183.27996826171875,
+            403.32861328125,
+            327.7675476074219
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 121,
+      "timestamp": 4.033333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6923613548278809,
+          "bounding_box": [
+            308.0736389160156,
+            183.02597045898438,
+            402.9180908203125,
+            331.68951416015625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 122,
+      "timestamp": 4.066666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6612421870231628,
+          "bounding_box": [
+            308.79461669921875,
+            184.73123168945312,
+            401.9070129394531,
+            335.3667297363281
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 123,
+      "timestamp": 4.1,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7191080451011658,
+          "bounding_box": [
+            308.6506652832031,
+            185.77674865722656,
+            403.262939453125,
+            336.4189758300781
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 124,
+      "timestamp": 4.133333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6113418340682983,
+          "bounding_box": [
+            307.4376220703125,
+            185.24407958984375,
+            401.6963806152344,
+            337.59661865234375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 125,
+      "timestamp": 4.166666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6165070533752441,
+          "bounding_box": [
+            306.5450744628906,
+            185.33953857421875,
+            403.0621643066406,
+            338.4994201660156
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 126,
+      "timestamp": 4.2,
+      "detections": []
+    },
+    {
+      "frame_id": 127,
+      "timestamp": 4.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 128,
+      "timestamp": 4.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 129,
+      "timestamp": 4.3,
+      "detections": []
+    },
+    {
+      "frame_id": 130,
+      "timestamp": 4.333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 131,
+      "timestamp": 4.366666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 132,
+      "timestamp": 4.4,
+      "detections": []
+    },
+    {
+      "frame_id": 133,
+      "timestamp": 4.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 134,
+      "timestamp": 4.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 135,
+      "timestamp": 4.5,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6965013742446899,
+          "bounding_box": [
+            304.2159118652344,
+            208.2127685546875,
+            413.9416198730469,
+            347.4244079589844
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 136,
+      "timestamp": 4.533333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6332131028175354,
+          "bounding_box": [
+            308.7370910644531,
+            217.27635192871094,
+            412.5990295410156,
+            350.1546325683594
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 137,
+      "timestamp": 4.566666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6564239263534546,
+          "bounding_box": [
+            305.6396789550781,
+            218.1009979248047,
+            412.36370849609375,
+            349.92425537109375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 138,
+      "timestamp": 4.6,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6501362919807434,
+          "bounding_box": [
+            305.77349853515625,
+            217.4084930419922,
+            413.38812255859375,
+            350.9621276855469
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 139,
+      "timestamp": 4.633333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7852599024772644,
+          "bounding_box": [
+            305.4937438964844,
+            223.27908325195312,
+            411.8846740722656,
+            353.7114562988281
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 140,
+      "timestamp": 4.666666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8131555914878845,
+          "bounding_box": [
+            305.0246887207031,
+            227.3241424560547,
+            413.3540344238281,
+            359.54351806640625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 141,
+      "timestamp": 4.7,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8417655825614929,
+          "bounding_box": [
+            302.8838806152344,
+            228.67967224121094,
+            410.962646484375,
+            355.73040771484375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 142,
+      "timestamp": 4.733333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8451521992683411,
+          "bounding_box": [
+            298.7384338378906,
+            230.89418029785156,
+            410.6200866699219,
+            355.32330322265625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 143,
+      "timestamp": 4.766666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8141012191772461,
+          "bounding_box": [
+            297.3948059082031,
+            238.8114471435547,
+            410.51873779296875,
+            358.7222900390625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 144,
+      "timestamp": 4.8,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.818681538105011,
+          "bounding_box": [
+            296.53765869140625,
+            243.34693908691406,
+            411.5251770019531,
+            361.86663818359375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 145,
+      "timestamp": 4.833333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8310365676879883,
+          "bounding_box": [
+            295.08673095703125,
+            244.06695556640625,
+            408.32373046875,
+            359.86376953125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 146,
+      "timestamp": 4.866666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8366882801055908,
+          "bounding_box": [
+            294.0615234375,
+            243.8342742919922,
+            408.93670654296875,
+            357.0119323730469
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 147,
+      "timestamp": 4.9,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8503607511520386,
+          "bounding_box": [
+            290.6369323730469,
+            246.08450317382812,
+            404.3770751953125,
+            357.2610778808594
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 148,
+      "timestamp": 4.933333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8530981540679932,
+          "bounding_box": [
+            286.86322021484375,
+            250.2975616455078,
+            405.0438232421875,
+            362.21112060546875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 149,
+      "timestamp": 4.966666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8612202405929565,
+          "bounding_box": [
+            282.97088623046875,
+            251.57354736328125,
+            403.9409484863281,
+            363.2874755859375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 150,
+      "timestamp": 5.0,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8549303412437439,
+          "bounding_box": [
+            281.2466125488281,
+            254.26858520507812,
+            398.8990173339844,
+            356.61383056640625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 151,
+      "timestamp": 5.033333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8782260417938232,
+          "bounding_box": [
+            279.55816650390625,
+            258.2474365234375,
+            399.65478515625,
+            360.11865234375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 152,
+      "timestamp": 5.066666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8651446104049683,
+          "bounding_box": [
+            275.5918884277344,
+            260.9882507324219,
+            394.57696533203125,
+            360.0348205566406
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 153,
+      "timestamp": 5.1,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8578759431838989,
+          "bounding_box": [
+            272.9423522949219,
+            262.6239318847656,
+            395.2872314453125,
+            360.368408203125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 154,
+      "timestamp": 5.133333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.864081621170044,
+          "bounding_box": [
+            272.6445007324219,
+            263.6465759277344,
+            396.6075439453125,
+            361.55853271484375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 155,
+      "timestamp": 5.166666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8639876246452332,
+          "bounding_box": [
+            270.0416259765625,
+            264.36517333984375,
+            394.94580078125,
+            360.1898498535156
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 156,
+      "timestamp": 5.2,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8697561025619507,
+          "bounding_box": [
+            270.31640625,
+            266.4983825683594,
+            396.3221435546875,
+            362.6502380371094
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 157,
+      "timestamp": 5.233333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8652995228767395,
+          "bounding_box": [
+            272.90777587890625,
+            270.3442077636719,
+            399.5654602050781,
+            362.2893981933594
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 158,
+      "timestamp": 5.266666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8664226531982422,
+          "bounding_box": [
+            272.8425598144531,
+            272.54449462890625,
+            402.0846862792969,
+            364.13446044921875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 159,
+      "timestamp": 5.3,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8761628866195679,
+          "bounding_box": [
+            275.3441467285156,
+            277.58355712890625,
+            405.8020935058594,
+            363.125244140625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 160,
+      "timestamp": 5.333333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8872253894805908,
+          "bounding_box": [
+            276.24737548828125,
+            279.9217224121094,
+            409.8911437988281,
+            365.8894348144531
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 161,
+      "timestamp": 5.366666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8802322149276733,
+          "bounding_box": [
+            277.8043212890625,
+            281.136962890625,
+            415.66192626953125,
+            364.1396484375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 162,
+      "timestamp": 5.4,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8850820660591125,
+          "bounding_box": [
+            281.0274963378906,
+            282.0078125,
+            417.7171936035156,
+            364.8063049316406
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 163,
+      "timestamp": 5.433333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8906372785568237,
+          "bounding_box": [
+            286.6811218261719,
+            282.5143127441406,
+            421.2501220703125,
+            362.96832275390625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 164,
+      "timestamp": 5.466666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8625133037567139,
+          "bounding_box": [
+            294.1636047363281,
+            285.3341064453125,
+            429.9429016113281,
+            360.208740234375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 165,
+      "timestamp": 5.5,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8423846364021301,
+          "bounding_box": [
+            298.19891357421875,
+            286.8869323730469,
+            435.3526306152344,
+            358.1780700683594
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 166,
+      "timestamp": 5.533333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.8267908096313477,
+          "bounding_box": [
+            297.324462890625,
+            286.3522644042969,
+            439.8502502441406,
+            356.3379211425781
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 167,
+      "timestamp": 5.566666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.809346616268158,
+          "bounding_box": [
+            297.8254699707031,
+            288.13372802734375,
+            442.2775573730469,
+            356.3287353515625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 168,
+      "timestamp": 5.6,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7881486415863037,
+          "bounding_box": [
+            300.8659362792969,
+            288.09490966796875,
+            441.5228271484375,
+            354.328125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 169,
+      "timestamp": 5.633333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7828444242477417,
+          "bounding_box": [
+            305.69378662109375,
+            294.41876220703125,
+            446.9692687988281,
+            355.540283203125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 170,
+      "timestamp": 5.666666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7608640193939209,
+          "bounding_box": [
+            304.73699951171875,
+            295.7301330566406,
+            449.2767333984375,
+            356.3096618652344
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 171,
+      "timestamp": 5.7,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7615393996238708,
+          "bounding_box": [
+            304.020751953125,
+            296.7947998046875,
+            449.3289794921875,
+            356.013916015625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 172,
+      "timestamp": 5.733333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7530440092086792,
+          "bounding_box": [
+            302.6830139160156,
+            298.45794677734375,
+            449.8111267089844,
+            355.8375244140625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 173,
+      "timestamp": 5.766666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7325335741043091,
+          "bounding_box": [
+            303.22332763671875,
+            299.47833251953125,
+            450.19390869140625,
+            356.89361572265625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 174,
+      "timestamp": 5.8,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7145527601242065,
+          "bounding_box": [
+            303.0516052246094,
+            300.862060546875,
+            451.9320983886719,
+            355.9677734375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 175,
+      "timestamp": 5.833333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6575499773025513,
+          "bounding_box": [
+            299.7381286621094,
+            302.0674133300781,
+            447.6177062988281,
+            350.5259704589844
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 176,
+      "timestamp": 5.866666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6294434666633606,
+          "bounding_box": [
+            292.1001892089844,
+            306.4608459472656,
+            443.11517333984375,
+            352.2554626464844
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 177,
+      "timestamp": 5.9,
+      "detections": []
+    },
+    {
+      "frame_id": 178,
+      "timestamp": 5.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 179,
+      "timestamp": 5.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 180,
+      "timestamp": 6.0,
+      "detections": []
+    },
+    {
+      "frame_id": 181,
+      "timestamp": 6.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 182,
+      "timestamp": 6.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 183,
+      "timestamp": 6.1,
+      "detections": []
+    },
+    {
+      "frame_id": 184,
+      "timestamp": 6.133333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 185,
+      "timestamp": 6.166666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 186,
+      "timestamp": 6.2,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6180582642555237,
+          "bounding_box": [
+            266.80731201171875,
+            294.525390625,
+            422.2538146972656,
+            348.6032409667969
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 187,
+      "timestamp": 6.233333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6511868238449097,
+          "bounding_box": [
+            267.44952392578125,
+            288.1114196777344,
+            409.85223388671875,
+            340.8825378417969
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 188,
+      "timestamp": 6.266666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6346241235733032,
+          "bounding_box": [
+            265.1514587402344,
+            276.2481994628906,
+            417.0866394042969,
+            336.8427429199219
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 189,
+      "timestamp": 6.3,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.625296413898468,
+          "bounding_box": [
+            266.31451416015625,
+            269.822021484375,
+            410.5042419433594,
+            335.0619812011719
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 190,
+      "timestamp": 6.333333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 191,
+      "timestamp": 6.366666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6148856282234192,
+          "bounding_box": [
+            266.6375427246094,
+            261.2895202636719,
+            403.48583984375,
+            330.54248046875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 192,
+      "timestamp": 6.4,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6400754451751709,
+          "bounding_box": [
+            268.59521484375,
+            252.27487182617188,
+            406.0855407714844,
+            329.97784423828125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 193,
+      "timestamp": 6.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 194,
+      "timestamp": 6.466666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6342613697052002,
+          "bounding_box": [
+            269.78778076171875,
+            249.81039428710938,
+            402.2220458984375,
+            334.96923828125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 195,
+      "timestamp": 6.5,
+      "detections": []
+    },
+    {
+      "frame_id": 196,
+      "timestamp": 6.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 197,
+      "timestamp": 6.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 198,
+      "timestamp": 6.6,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6673668026924133,
+          "bounding_box": [
+            286.15423583984375,
+            272.38336181640625,
+            414.6890869140625,
+            367.612060546875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 199,
+      "timestamp": 6.633333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6550033092498779,
+          "bounding_box": [
+            298.61834716796875,
+            271.83294677734375,
+            425.6830749511719,
+            388.4806823730469
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 200,
+      "timestamp": 6.666666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6363347768783569,
+          "bounding_box": [
+            303.6130065917969,
+            282.698974609375,
+            437.1003723144531,
+            401.9670104980469
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 201,
+      "timestamp": 6.7,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7415122985839844,
+          "bounding_box": [
+            307.31103515625,
+            287.02435302734375,
+            435.6431579589844,
+            414.10687255859375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 202,
+      "timestamp": 6.733333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7327602505683899,
+          "bounding_box": [
+            312.4365234375,
+            297.38275146484375,
+            439.8670959472656,
+            420.5594482421875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 203,
+      "timestamp": 6.766666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7110580801963806,
+          "bounding_box": [
+            310.5376892089844,
+            304.058837890625,
+            440.9952087402344,
+            426.43841552734375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 204,
+      "timestamp": 6.8,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6740842461585999,
+          "bounding_box": [
+            317.8301086425781,
+            313.53045654296875,
+            441.8075256347656,
+            428.2231140136719
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 205,
+      "timestamp": 6.833333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6865249276161194,
+          "bounding_box": [
+            327.5580139160156,
+            320.4069519042969,
+            443.2680358886719,
+            430.2077941894531
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 206,
+      "timestamp": 6.866666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7055509090423584,
+          "bounding_box": [
+            335.67169189453125,
+            327.8746032714844,
+            443.5943908691406,
+            429.32568359375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 207,
+      "timestamp": 6.9,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6387457251548767,
+          "bounding_box": [
+            341.7310485839844,
+            331.00537109375,
+            442.7106018066406,
+            429.08251953125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 208,
+      "timestamp": 6.933333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6175585389137268,
+          "bounding_box": [
+            345.5714111328125,
+            335.71063232421875,
+            442.209228515625,
+            429.2181396484375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 209,
+      "timestamp": 6.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 210,
+      "timestamp": 7.0,
+      "detections": []
+    },
+    {
+      "frame_id": 211,
+      "timestamp": 7.033333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6570771932601929,
+          "bounding_box": [
+            339.6965637207031,
+            327.9801940917969,
+            432.7430114746094,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 212,
+      "timestamp": 7.066666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7161857485771179,
+          "bounding_box": [
+            334.96697998046875,
+            317.91619873046875,
+            426.9186706542969,
+            431.16058349609375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 213,
+      "timestamp": 7.1,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.718767523765564,
+          "bounding_box": [
+            330.52734375,
+            311.17462158203125,
+            419.9560852050781,
+            429.5459899902344
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 214,
+      "timestamp": 7.133333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7222362756729126,
+          "bounding_box": [
+            327.7437438964844,
+            310.06024169921875,
+            415.3587341308594,
+            431.5071716308594
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 215,
+      "timestamp": 7.166666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7145800590515137,
+          "bounding_box": [
+            325.0536804199219,
+            305.5746765136719,
+            411.6603698730469,
+            431.5975341796875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 216,
+      "timestamp": 7.2,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7342517971992493,
+          "bounding_box": [
+            323.5628662109375,
+            300.7377014160156,
+            405.6018981933594,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 217,
+      "timestamp": 7.233333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.750835120677948,
+          "bounding_box": [
+            323.060302734375,
+            301.60516357421875,
+            400.2874755859375,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 218,
+      "timestamp": 7.266666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7266467809677124,
+          "bounding_box": [
+            325.0125427246094,
+            299.83721923828125,
+            395.689453125,
+            430.32330322265625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 219,
+      "timestamp": 7.3,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7116389274597168,
+          "bounding_box": [
+            326.3967590332031,
+            298.0525207519531,
+            392.6999816894531,
+            430.306396484375
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 220,
+      "timestamp": 7.333333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6452330946922302,
+          "bounding_box": [
+            327.859130859375,
+            294.96380615234375,
+            391.1077880859375,
+            430.3047790527344
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 221,
+      "timestamp": 7.366666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 222,
+      "timestamp": 7.4,
+      "detections": []
+    },
+    {
+      "frame_id": 223,
+      "timestamp": 7.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 224,
+      "timestamp": 7.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 225,
+      "timestamp": 7.5,
+      "detections": []
+    },
+    {
+      "frame_id": 226,
+      "timestamp": 7.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 227,
+      "timestamp": 7.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 228,
+      "timestamp": 7.6,
+      "detections": []
+    },
+    {
+      "frame_id": 229,
+      "timestamp": 7.633333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 230,
+      "timestamp": 7.666666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 231,
+      "timestamp": 7.7,
+      "detections": []
+    },
+    {
+      "frame_id": 232,
+      "timestamp": 7.733333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.602105438709259,
+          "bounding_box": [
+            364.17095947265625,
+            320.8608703613281,
+            433.6347351074219,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 233,
+      "timestamp": 7.766666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6935396790504456,
+          "bounding_box": [
+            361.0606994628906,
+            326.20660400390625,
+            437.21759033203125,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 234,
+      "timestamp": 7.8,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7373548746109009,
+          "bounding_box": [
+            360.240966796875,
+            328.9096374511719,
+            445.2809753417969,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 235,
+      "timestamp": 7.833333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7302863597869873,
+          "bounding_box": [
+            360.47015380859375,
+            332.6664123535156,
+            452.71636962890625,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 236,
+      "timestamp": 7.866666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7317386269569397,
+          "bounding_box": [
+            359.98468017578125,
+            330.17254638671875,
+            455.4847717285156,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 237,
+      "timestamp": 7.9,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7310924530029297,
+          "bounding_box": [
+            360.7288818359375,
+            342.8811340332031,
+            456.941162109375,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 238,
+      "timestamp": 7.933333333333334,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7100677490234375,
+          "bounding_box": [
+            361.650146484375,
+            343.5596618652344,
+            460.9380187988281,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 239,
+      "timestamp": 7.966666666666667,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.7049382328987122,
+          "bounding_box": [
+            357.8896789550781,
+            345.7882995605469,
+            468.657958984375,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 240,
+      "timestamp": 8.0,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6769951581954956,
+          "bounding_box": [
+            358.5937805175781,
+            348.9642333984375,
+            470.4823913574219,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 241,
+      "timestamp": 8.033333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6543861627578735,
+          "bounding_box": [
+            358.5185852050781,
+            356.2714538574219,
+            474.4676208496094,
+            432.0
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 242,
+      "timestamp": 8.066666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6783167719841003,
+          "bounding_box": [
+            359.38623046875,
+            355.59375,
+            477.0668029785156,
+            427.5344543457031
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 243,
+      "timestamp": 8.1,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.719845712184906,
+          "bounding_box": [
+            355.8543701171875,
+            354.13690185546875,
+            476.48040771484375,
+            416.4869384765625
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 244,
+      "timestamp": 8.133333333333333,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6488532423973083,
+          "bounding_box": [
+            353.66009521484375,
+            352.0242614746094,
+            478.1369934082031,
+            410.37518310546875
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 245,
+      "timestamp": 8.166666666666666,
+      "detections": [
+        {
+          "class": "missile",
+          "confidence": 0.6097014546394348,
+          "bounding_box": [
+            358.6307067871094,
+            354.6697998046875,
+            482.0837707519531,
+            399.65020751953125
+          ],
+          "threat_level": "Critical",
+          "trajectory": {
+            "velocity": "medium",
+            "direction": "northeast"
+          }
+        }
+      ]
+    },
+    {
+      "frame_id": 246,
+      "timestamp": 8.2,
+      "detections": []
+    },
+    {
+      "frame_id": 247,
+      "timestamp": 8.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 248,
+      "timestamp": 8.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 249,
+      "timestamp": 8.3,
+      "detections": []
+    },
+    {
+      "frame_id": 250,
+      "timestamp": 8.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 251,
+      "timestamp": 8.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 252,
+      "timestamp": 8.4,
+      "detections": []
+    },
+    {
+      "frame_id": 253,
+      "timestamp": 8.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 254,
+      "timestamp": 8.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 255,
+      "timestamp": 8.5,
+      "detections": []
+    },
+    {
+      "frame_id": 256,
+      "timestamp": 8.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 257,
+      "timestamp": 8.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 258,
+      "timestamp": 8.6,
+      "detections": []
+    },
+    {
+      "frame_id": 259,
+      "timestamp": 8.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 260,
+      "timestamp": 8.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 261,
+      "timestamp": 8.7,
+      "detections": []
+    },
+    {
+      "frame_id": 262,
+      "timestamp": 8.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 263,
+      "timestamp": 8.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 264,
+      "timestamp": 8.8,
+      "detections": []
+    },
+    {
+      "frame_id": 265,
+      "timestamp": 8.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 266,
+      "timestamp": 8.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 267,
+      "timestamp": 8.9,
+      "detections": []
+    },
+    {
+      "frame_id": 268,
+      "timestamp": 8.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 269,
+      "timestamp": 8.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 270,
+      "timestamp": 9.0,
+      "detections": []
+    },
+    {
+      "frame_id": 271,
+      "timestamp": 9.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 272,
+      "timestamp": 9.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 273,
+      "timestamp": 9.1,
+      "detections": []
+    },
+    {
+      "frame_id": 274,
+      "timestamp": 9.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 275,
+      "timestamp": 9.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 276,
+      "timestamp": 9.2,
+      "detections": []
+    },
+    {
+      "frame_id": 277,
+      "timestamp": 9.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 278,
+      "timestamp": 9.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 279,
+      "timestamp": 9.3,
+      "detections": []
+    },
+    {
+      "frame_id": 280,
+      "timestamp": 9.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 281,
+      "timestamp": 9.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 282,
+      "timestamp": 9.4,
+      "detections": []
+    },
+    {
+      "frame_id": 283,
+      "timestamp": 9.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 284,
+      "timestamp": 9.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 285,
+      "timestamp": 9.5,
+      "detections": []
+    },
+    {
+      "frame_id": 286,
+      "timestamp": 9.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 287,
+      "timestamp": 9.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 288,
+      "timestamp": 9.6,
+      "detections": []
+    },
+    {
+      "frame_id": 289,
+      "timestamp": 9.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 290,
+      "timestamp": 9.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 291,
+      "timestamp": 9.7,
+      "detections": []
+    },
+    {
+      "frame_id": 292,
+      "timestamp": 9.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 293,
+      "timestamp": 9.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 294,
+      "timestamp": 9.8,
+      "detections": []
+    },
+    {
+      "frame_id": 295,
+      "timestamp": 9.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 296,
+      "timestamp": 9.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 297,
+      "timestamp": 9.9,
+      "detections": []
+    },
+    {
+      "frame_id": 298,
+      "timestamp": 9.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 299,
+      "timestamp": 9.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 300,
+      "timestamp": 10.0,
+      "detections": []
+    },
+    {
+      "frame_id": 301,
+      "timestamp": 10.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 302,
+      "timestamp": 10.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 303,
+      "timestamp": 10.1,
+      "detections": []
+    },
+    {
+      "frame_id": 304,
+      "timestamp": 10.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 305,
+      "timestamp": 10.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 306,
+      "timestamp": 10.2,
+      "detections": []
+    },
+    {
+      "frame_id": 307,
+      "timestamp": 10.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 308,
+      "timestamp": 10.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 309,
+      "timestamp": 10.3,
+      "detections": []
+    },
+    {
+      "frame_id": 310,
+      "timestamp": 10.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 311,
+      "timestamp": 10.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 312,
+      "timestamp": 10.4,
+      "detections": []
+    },
+    {
+      "frame_id": 313,
+      "timestamp": 10.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 314,
+      "timestamp": 10.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 315,
+      "timestamp": 10.5,
+      "detections": []
+    },
+    {
+      "frame_id": 316,
+      "timestamp": 10.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 317,
+      "timestamp": 10.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 318,
+      "timestamp": 10.6,
+      "detections": []
+    },
+    {
+      "frame_id": 319,
+      "timestamp": 10.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 320,
+      "timestamp": 10.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 321,
+      "timestamp": 10.7,
+      "detections": []
+    },
+    {
+      "frame_id": 322,
+      "timestamp": 10.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 323,
+      "timestamp": 10.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 324,
+      "timestamp": 10.8,
+      "detections": []
+    },
+    {
+      "frame_id": 325,
+      "timestamp": 10.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 326,
+      "timestamp": 10.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 327,
+      "timestamp": 10.9,
+      "detections": []
+    },
+    {
+      "frame_id": 328,
+      "timestamp": 10.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 329,
+      "timestamp": 10.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 330,
+      "timestamp": 11.0,
+      "detections": []
+    },
+    {
+      "frame_id": 331,
+      "timestamp": 11.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 332,
+      "timestamp": 11.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 333,
+      "timestamp": 11.1,
+      "detections": []
+    },
+    {
+      "frame_id": 334,
+      "timestamp": 11.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 335,
+      "timestamp": 11.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 336,
+      "timestamp": 11.2,
+      "detections": []
+    },
+    {
+      "frame_id": 337,
+      "timestamp": 11.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 338,
+      "timestamp": 11.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 339,
+      "timestamp": 11.3,
+      "detections": []
+    },
+    {
+      "frame_id": 340,
+      "timestamp": 11.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 341,
+      "timestamp": 11.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 342,
+      "timestamp": 11.4,
+      "detections": []
+    },
+    {
+      "frame_id": 343,
+      "timestamp": 11.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 344,
+      "timestamp": 11.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 345,
+      "timestamp": 11.5,
+      "detections": []
+    },
+    {
+      "frame_id": 346,
+      "timestamp": 11.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 347,
+      "timestamp": 11.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 348,
+      "timestamp": 11.6,
+      "detections": []
+    },
+    {
+      "frame_id": 349,
+      "timestamp": 11.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 350,
+      "timestamp": 11.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 351,
+      "timestamp": 11.7,
+      "detections": []
+    },
+    {
+      "frame_id": 352,
+      "timestamp": 11.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 353,
+      "timestamp": 11.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 354,
+      "timestamp": 11.8,
+      "detections": []
+    },
+    {
+      "frame_id": 355,
+      "timestamp": 11.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 356,
+      "timestamp": 11.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 357,
+      "timestamp": 11.9,
+      "detections": []
+    },
+    {
+      "frame_id": 358,
+      "timestamp": 11.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 359,
+      "timestamp": 11.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 360,
+      "timestamp": 12.0,
+      "detections": []
+    },
+    {
+      "frame_id": 361,
+      "timestamp": 12.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 362,
+      "timestamp": 12.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 363,
+      "timestamp": 12.1,
+      "detections": []
+    },
+    {
+      "frame_id": 364,
+      "timestamp": 12.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 365,
+      "timestamp": 12.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 366,
+      "timestamp": 12.2,
+      "detections": []
+    },
+    {
+      "frame_id": 367,
+      "timestamp": 12.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 368,
+      "timestamp": 12.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 369,
+      "timestamp": 12.3,
+      "detections": []
+    },
+    {
+      "frame_id": 370,
+      "timestamp": 12.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 371,
+      "timestamp": 12.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 372,
+      "timestamp": 12.4,
+      "detections": []
+    },
+    {
+      "frame_id": 373,
+      "timestamp": 12.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 374,
+      "timestamp": 12.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 375,
+      "timestamp": 12.5,
+      "detections": []
+    },
+    {
+      "frame_id": 376,
+      "timestamp": 12.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 377,
+      "timestamp": 12.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 378,
+      "timestamp": 12.6,
+      "detections": []
+    },
+    {
+      "frame_id": 379,
+      "timestamp": 12.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 380,
+      "timestamp": 12.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 381,
+      "timestamp": 12.7,
+      "detections": []
+    },
+    {
+      "frame_id": 382,
+      "timestamp": 12.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 383,
+      "timestamp": 12.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 384,
+      "timestamp": 12.8,
+      "detections": []
+    },
+    {
+      "frame_id": 385,
+      "timestamp": 12.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 386,
+      "timestamp": 12.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 387,
+      "timestamp": 12.9,
+      "detections": []
+    },
+    {
+      "frame_id": 388,
+      "timestamp": 12.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 389,
+      "timestamp": 12.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 390,
+      "timestamp": 13.0,
+      "detections": []
+    },
+    {
+      "frame_id": 391,
+      "timestamp": 13.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 392,
+      "timestamp": 13.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 393,
+      "timestamp": 13.1,
+      "detections": []
+    },
+    {
+      "frame_id": 394,
+      "timestamp": 13.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 395,
+      "timestamp": 13.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 396,
+      "timestamp": 13.2,
+      "detections": []
+    },
+    {
+      "frame_id": 397,
+      "timestamp": 13.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 398,
+      "timestamp": 13.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 399,
+      "timestamp": 13.3,
+      "detections": []
+    },
+    {
+      "frame_id": 400,
+      "timestamp": 13.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 401,
+      "timestamp": 13.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 402,
+      "timestamp": 13.4,
+      "detections": []
+    },
+    {
+      "frame_id": 403,
+      "timestamp": 13.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 404,
+      "timestamp": 13.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 405,
+      "timestamp": 13.5,
+      "detections": []
+    },
+    {
+      "frame_id": 406,
+      "timestamp": 13.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 407,
+      "timestamp": 13.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 408,
+      "timestamp": 13.6,
+      "detections": []
+    },
+    {
+      "frame_id": 409,
+      "timestamp": 13.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 410,
+      "timestamp": 13.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 411,
+      "timestamp": 13.7,
+      "detections": []
+    },
+    {
+      "frame_id": 412,
+      "timestamp": 13.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 413,
+      "timestamp": 13.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 414,
+      "timestamp": 13.8,
+      "detections": []
+    },
+    {
+      "frame_id": 415,
+      "timestamp": 13.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 416,
+      "timestamp": 13.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 417,
+      "timestamp": 13.9,
+      "detections": []
+    },
+    {
+      "frame_id": 418,
+      "timestamp": 13.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 419,
+      "timestamp": 13.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 420,
+      "timestamp": 14.0,
+      "detections": []
+    },
+    {
+      "frame_id": 421,
+      "timestamp": 14.033333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 422,
+      "timestamp": 14.066666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 423,
+      "timestamp": 14.1,
+      "detections": []
+    },
+    {
+      "frame_id": 424,
+      "timestamp": 14.133333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 425,
+      "timestamp": 14.166666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 426,
+      "timestamp": 14.2,
+      "detections": []
+    },
+    {
+      "frame_id": 427,
+      "timestamp": 14.233333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 428,
+      "timestamp": 14.266666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 429,
+      "timestamp": 14.3,
+      "detections": []
+    },
+    {
+      "frame_id": 430,
+      "timestamp": 14.333333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 431,
+      "timestamp": 14.366666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 432,
+      "timestamp": 14.4,
+      "detections": []
+    },
+    {
+      "frame_id": 433,
+      "timestamp": 14.433333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 434,
+      "timestamp": 14.466666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 435,
+      "timestamp": 14.5,
+      "detections": []
+    },
+    {
+      "frame_id": 436,
+      "timestamp": 14.533333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 437,
+      "timestamp": 14.566666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 438,
+      "timestamp": 14.6,
+      "detections": []
+    },
+    {
+      "frame_id": 439,
+      "timestamp": 14.633333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 440,
+      "timestamp": 14.666666666666666,
+      "detections": []
+    },
+    {
+      "frame_id": 441,
+      "timestamp": 14.7,
+      "detections": []
+    },
+    {
+      "frame_id": 442,
+      "timestamp": 14.733333333333333,
+      "detections": []
+    },
+    {
+      "frame_id": 443,
+      "timestamp": 14.766666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 444,
+      "timestamp": 14.8,
+      "detections": []
+    },
+    {
+      "frame_id": 445,
+      "timestamp": 14.833333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 446,
+      "timestamp": 14.866666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 447,
+      "timestamp": 14.9,
+      "detections": []
+    },
+    {
+      "frame_id": 448,
+      "timestamp": 14.933333333333334,
+      "detections": []
+    },
+    {
+      "frame_id": 449,
+      "timestamp": 14.966666666666667,
+      "detections": []
+    },
+    {
+      "frame_id": 450,
+      "timestamp": 15.0,
+      "detections": []
+    }
+  ]
+}

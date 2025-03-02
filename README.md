@@ -103,15 +103,15 @@ Below are some key outputs from the AeroSentinel app, demonstrating its function
 
 ### 2. Video Analysis Summary
 ![Video Analysis Summary](https://i.ibb.co/XrbzQs0K/Screenshot-2025-03-02-055515.png)  
-*After uploading a video, the app displays a summary of detected objects: 3008 birds, 0 drones, and 0 missiles.*
+*After uploading a video, the app displays a summary of detected objects: 3008 birds (Birds in one frame x No. of frames --to be changed), 0 drones, and 0 missiles.*
 
 ### 3. Threat Analysis Report (Low Threat - Birds Only)
 ![Threat Analysis Report - Low Threat](https://i.ibb.co/1Y5tL7V0/Screenshot-2025-03-02-055532.png)  
-*For a video with only birds (3008 detected), the threat level is Low. The app recommends logging for wildlife monitoring.*
+*For a video with only birds (3008 detected [Birds in one frame x No. of frames --to be changed]), the threat level is Low. The app recommends logging for wildlife monitoring.*
 
 ### 4. Threat Analysis Report (Critical Threat - Missiles Detected)
 ![Threat Analysis Report - Critical Threat](https://i.ibb.co/Dfxb6K5W/Screenshot-2025-03-02-055600.png)  
-*For a video with 104 missiles detected, the threat level is Critical. The app recommends immediate actions like activating emergency protocols and notifying the security command center.*
+*For a video with 104 (Missiles in one frame x No. of frames --to be changed) missiles detected, the threat level is Critical. The app recommends immediate actions like activating emergency protocols and notifying the security command center.*
 
 ### 5. Detection Frame (Missile Launch)
 ![Detection Frame - Missile](https://i.ibb.co/9ksNyb32/Screenshot-2025-03-02-055747.png)  

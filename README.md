@@ -97,29 +97,38 @@ Traditional surveillance methods for airborne threat detection rely heavily on m
 
 Below are some key outputs from the AeroSentinel app, demonstrating its functionality in real-world scenarios.
 
-### 1. Initial App Screen (No Footage Analyzed)
-![Initial App Screen](https://i.ibb.co/xKb6QJv4/Screenshot-2025-03-02-055456.png)  
-*The app prompts users to upload surveillance footage to begin analysis.*
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+  <div style="text-align: center; width: 45%;">
+    <img src="https://i.ibb.co/xKb6QJv4/Screenshot-2025-03-02-055456.png" alt="Initial App Screen" width="100%">
+    <p><strong>Initial App Screen (No Footage Analyzed)</strong><br>The app prompts users to upload surveillance footage to begin analysis.</p>
+  </div>
+  <div style="text-align: center; width: 45%;">
+    <img src="https://i.ibb.co/XrbzQs0K/Screenshot-2025-03-02-055515.png" alt="Video Analysis Summary" width="100%">
+    <p><strong>Video Analysis Summary</strong><br>After uploading a video, the app displays a summary of detected objects: 3008 birds, 0 drones, and 0 missiles.</p>
+  </div>
+</div>
 
-### 2. Video Analysis Summary
-![Video Analysis Summary](https://i.ibb.co/XrbzQs0K/Screenshot-2025-03-02-055515.png)  
-*After uploading a video, the app displays a summary of detected objects: 3008 birds (Birds in one frame x No. of frames --to be changed), 0 drones, and 0 missiles.*
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+  <div style="text-align: center; width: 45%;">
+    <img src="https://i.ibb.co/1Y5tL7V0/Screenshot-2025-03-02-055532.png" alt="Threat Analysis Report - Low Threat" width="100%">
+    <p><strong>Threat Analysis Report (Low Threat - Birds Only)</strong><br>For a video with only birds, the threat level is Low. The app recommends logging for wildlife monitoring.</p>
+  </div>
+  <div style="text-align: center; width: 45%;">
+    <img src="https://i.ibb.co/Dfxb6K5W/Screenshot-2025-03-02-055600.png" alt="Threat Analysis Report - Critical Threat" width="100%">
+    <p><strong>Threat Analysis Report (Critical Threat - Missiles Detected)</strong><br>For a video with 104 missiles detected, the threat level is Critical. The app recommends immediate emergency protocols.</p>
+  </div>
+</div>
 
-### 3. Threat Analysis Report (Low Threat - Birds Only)
-![Threat Analysis Report - Low Threat](https://i.ibb.co/1Y5tL7V0/Screenshot-2025-03-02-055532.png)  
-*For a video with only birds (3008 detected [Birds in one frame x No. of frames --to be changed]), the threat level is Low. The app recommends logging for wildlife monitoring.*
-
-### 4. Threat Analysis Report (Critical Threat - Missiles Detected)
-![Threat Analysis Report - Critical Threat](https://i.ibb.co/Dfxb6K5W/Screenshot-2025-03-02-055600.png)  
-*For a video with 104 (Missiles in one frame x No. of frames --to be changed) missiles detected, the threat level is Critical. The app recommends immediate actions like activating emergency protocols and notifying the security command center.*
-
-### 5. Detection Frame (Missile Launch)
-![Detection Frame - Missile](https://i.ibb.co/9ksNyb32/Screenshot-2025-03-02-055747.png)  
-*A frame from a surveillance video sourced from the Russian Defense Ministry, showing a missile launch detected with 62% confidence.*
-
-### 6. Detection Frame (Birds Only)
-![Detection Frame - Birds](https://i.ibb.co/35Ywc5JZ/Screenshot-2025-03-02-055704.png)  
-*A frame showing multiple birds detected with high confidence, indicating no immediate threat.*
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+  <div style="text-align: center; width: 45%;">
+    <img src="https://i.ibb.co/9ksNyb32/Screenshot-2025-03-02-055747.png" alt="Detection Frame - Missile" width="100%">
+    <p><strong>Detection Frame (Missile Launch)</strong><br>A frame from a surveillance video showing a missile launch detected with 62% confidence.</p>
+  </div>
+  <div style="text-align: center; width: 45%;">
+    <img src="https://i.ibb.co/35Ywc5JZ/Screenshot-2025-03-02-055704.png" alt="Detection Frame - Birds" width="100%">
+    <p><strong>Detection Frame (Birds Only)</strong><br>A frame showing multiple birds detected with high confidence, indicating no immediate threat.</p>
+  </div>
+</div>
 
 ---
 

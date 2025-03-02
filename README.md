@@ -169,5 +169,3 @@ Contributors:
 - **GDGC PCCOE AlphaByte 2.0 Hackathon** for providing the problem statement and inspiration.
 - **Ultralytics Team** for the YOLOv8 framework.
 - **Flutter and FastAPI Communities** for their amazing tools and resources.
-
-Can we put these images side by side, o=instead of one below the other, as these are mobile screenshorts, vertically larger, and same size each, so theu can fit in same line

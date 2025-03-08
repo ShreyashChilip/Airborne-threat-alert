@@ -13,9 +13,9 @@ Ram Belitkar
 
 ## 📌 Project Overview
 
-AeroSentinel is an **AI-driven airborne threat detection system** designed to revolutionize modern security and defense operations. By leveraging advanced object detection, tracking, and trajectory prediction, AeroSentinel automatically identifies and classifies airborne objects such as **birds**, **drones**, and **missiles** in surveillance footage. It differentiates between harmless objects (e.g., birds) and potential threats (e.g., drones or missiles), minimizing false alarms and enabling rapid, informed decision-making in critical scenarios.
+AeroSentinel is an **AI-driven airborne threat detection app** designed to revolutionize modern security and defense operations. By using advanced object detection, tracking, AeroSentinel automatically identifies and classifies airborne objects such as **birds**, **drones**, **missiles**, **Fighter Jets**, **Landing Decks**, **Ships**, **Paragliders and persons with the paragliders**, **Hot air Balloons**, and commercial planes in surveillance footage. It differentiates between harmless objects (e.g., birds) and potential threats (e.g., drones or missiles, Ships, Landing decks), minimizing false alarms and enabling rapid, informed decision-making in critical scenarios, using YoloV11m as it is the best suited model for a great balance between accuracy, computational time, DFL losses, as well has efficient mapping.
 
-Built with **YOLOv8** for object detection, **DeepSORT** for tracking, and **Kalman Filters** for trajectory prediction, AeroSentinel ensures high-speed inference and accuracy, even in challenging conditions like low-light or night-vision environments. The system features a user-friendly Flutter-based frontend for seamless interaction, a FastAPI backend for efficient video processing, and real-time threat analysis for enhanced situational awareness.
+Built with **YOLOv11m** for object detection, AeroSentinel ensures high-speed inference and accuracy, even in challenging conditions like low-light. The system features a user-friendly Flutter-based frontend for seamless interaction, a FastAPI backend for efficient video processing, and real-time threat analysis for enhanced situational awareness. The application also alerts the users registered as monitoring authorities, using the app best alerting system, using a loud alarm, that keeps on ringing until user acknowledges the threat detected, as well as places calls to the concerned monitoring authority, to ensure that the threat has been acknowledged, as relying on textual alerts like sms and emails is risky for security applications.
 
 ---
 
@@ -27,6 +27,7 @@ Traditional surveillance methods for airborne threat detection rely heavily on m
 2. **Reducing False Alarms:** Accurately distinguishing between birds and threats like drones or missiles.
 3. **Ensuring High-Speed Inference:** Prioritizing rapid detection to support timely decision-making in operational environments.
 4. **Enhancing Accuracy:** Fine-tuning models with transfer learning and data augmentation to handle diverse scenarios (e.g., varying backgrounds, lighting, and motion blur).
+5. **Sending alerts through trusted mediums like audio based alerts on monitoring authority users, as well as place calls to the users registered as monitoring authority.**
 
 ---
 
@@ -35,17 +36,11 @@ Traditional surveillance methods for airborne threat detection rely heavily on m
 ✅ **Real-Time Object Detection**  
 - Identifies and classifies airborne objects (birds, drones, missiles) in surveillance videos with high accuracy using YOLOv8.
 
-✅ **Object Tracking**  
-- Assigns unique IDs to detected objects and tracks their movement across frames using DeepSORT.
-
-✅ **Trajectory Prediction**  
-- Estimates the future position of airborne objects using Kalman Filters, aiding in threat assessment.
-
 ✅ **Threat Level Assessment**  
 - Categorizes threats as **Low** (birds), **High** (drones), or **Critical** (missiles) based on object type, speed, and direction.
 
 ✅ **Live Visualization**  
-- Provides real-time trajectory plots and detailed threat analysis reports for enhanced situational awareness.
+- Provides real-time plots and detailed threat analysis for enhanced situational awareness.
 
 ✅ **User-Friendly Interface**  
 - A Flutter-based mobile app allows users to upload videos, view threat analysis, and download annotated footage.
@@ -53,21 +48,21 @@ Traditional surveillance methods for airborne threat detection rely heavily on m
 ✅ **Scalable Backend**  
 - A FastAPI backend processes videos efficiently, logs detections, and serves annotated results.
 
+✅ **Calls and audio based alerts **  
+- Uses the best medium for alrting the authority remotely, i.e. Audio based in app alerts and placing calls to ensure sure shot acknowledgement from monitoring authority.
 ---
 
 ## 🛠️ Technical Implementation
 
 ### Technologies Used
 - **Python** 🐍: Core language for backend development.
-- **YOLOv8 (Ultralytics)** 🏹: For real-time object detection of birds, drones, and missiles.
-- **DeepSORT** 🔄: For tracking objects across video frames with unique IDs.
-- **Kalman Filters** 📈: For predicting the trajectory of detected objects.
+- **YOLOv11 (Ultralytics)** 🏹: For real-time object detection of birds, drones, and missiles.
 - **OpenCV** 🎥: For video processing and frame extraction.
-- **Matplotlib** 📊: For visualizing object trajectories.
 - **FastAPI** ⚡: For building a high-performance API to process videos and serve results.
 - **Flutter** 📱: For developing a cross-platform mobile app with an intuitive UI.
 - **Dio & Flutter Downloader**: For handling file uploads and downloads in the Flutter app.
-
+- **Twilio API**: For placing calls efficiently.
+  
 ### System Architecture
 1. **Frontend (Flutter App)**  
    - Users upload surveillance videos via the AeroSentinel app.
@@ -86,9 +81,8 @@ Traditional surveillance methods for airborne threat detection rely heavily on m
    - **Threat Assessment:** Objects are categorized into threat levels (Low, High, Critical) based on their class and behavior.
 
 ### Model Training
-- **Dataset:** 30-minute video clips containing birds, drones, and missiles under diverse conditions (e.g., different lighting, backgrounds, and object speeds).
-- **Training Approach:** Fine-tuned YOLOv8 using transfer learning on a pre-trained model.
-- **Data Augmentation:** Applied techniques like brightness adjustment, motion blur, and background variation to improve model robustness.
+- **Dataset:** combined dataset from various sources across internet containing birds, drones, and missiles, ships, landing decks, paragliders, hot air balloons, total 12 such classes under diverse conditions (e.g., different lighting, backgrounds, and object speeds).
+- **Training Approach:** Fine-tuned YOLOv11m for custom dataset.
 - **Inference Optimization:** Achieved high-speed inference with a confidence threshold of 0.6 to balance accuracy and performance.
 
 ---
@@ -120,21 +114,8 @@ Below are some key outputs from the AeroSentinel app, demonstrating its function
 🔹 **Enhanced Visualization**  
 - Integrate 3D trajectory mapping and heatmaps to provide deeper insights into object movements.
 
----
-
-## 🌟 Impact and Significance
-
-AeroSentinel represents a transformative step in modern security and defense strategies. Its key impacts include:
-
-- **Improved Situational Awareness:** Real-time detection and tracking provide defense teams with actionable insights.
-- **Reduced False Alarms:** Accurate classification minimizes unnecessary escalations caused by harmless objects like birds.
-- **Rapid Response:** High-speed inference ensures timely threat identification, enabling proactive measures.
-- **Operational Efficiency:** Automation reduces the need for manual monitoring, freeing up resources for critical tasks.
-- **Versatility:** The system performs reliably across diverse environments, including low-light and night-vision conditions.
-
-By integrating cutting-edge AI technologies, AeroSentinel fortifies security operations, mitigates risks, and enhances safety in high-stakes scenarios.
-
----
+🔹 **Audio augmentation**  
+- Use audio features from the video/stream to enhance the prediction for conditions like drone disguised as drone.
 
 ## 📜 License
 

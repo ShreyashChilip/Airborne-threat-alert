@@ -6,11 +6,6 @@ Shreyash Milind Chilip
 Kiran Anil Thorat
 Ram Belitkar
 
-**Problem Statement ID:** PS01  
-**AlphaByte 2.0 Hackathon:** GDGC PCCOE - Develop, Design, Innovate
-
----
-
 ## 📌 Project Overview
 
 AeroSentinel is an **AI-driven airborne threat detection app** designed to revolutionize modern security and defense operations. By using advanced object detection, tracking, AeroSentinel automatically identifies and classifies airborne objects such as **birds**, **drones**, **missiles**, **Fighter Jets**, **Landing Decks**, **Ships**, **Paragliders and persons with the paragliders**, **Hot air Balloons**, and commercial planes in surveillance footage. It differentiates between harmless objects (e.g., birds) and potential threats (e.g., drones or missiles, Ships, Landing decks), minimizing false alarms and enabling rapid, informed decision-making in critical scenarios, using YoloV11m as it is the best suited model for a great balance between accuracy, computational time, DFL losses, as well has efficient mapping.
@@ -147,6 +142,5 @@ Contributors:
 
 ## 🏆 Acknowledgments
 
-- **GDGC PCCOE AlphaByte 2.0 Hackathon** for providing the problem statement and inspiration.
 - **Ultralytics Team** for the YOLOv8 framework.
 - **Flutter and FastAPI Communities** for their amazing tools and resources.
